@@ -1,0 +1,3 @@
+bulidings - 400
+forest - 200
+glacier - 200
