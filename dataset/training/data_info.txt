@@ -1,6 +1,0 @@
-bulidings - 400
-forest - 200
-glacier - 200
-mountain - 300
-sea - 200
-street - 400
