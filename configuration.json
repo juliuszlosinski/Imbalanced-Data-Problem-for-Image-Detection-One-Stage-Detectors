@@ -5,7 +5,7 @@
     "height_of_image": 128,
     "number_of_channels": 3,
     "batch_size": 128,
-    "number_of_epochs": 200,
+    "number_of_epochs": 100,
     "delta": 5,
     "number_of_neighbors": 10,
     "latent_dimension":100,

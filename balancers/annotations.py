@@ -2,7 +2,6 @@ import os
 import shutil
 
 class Annotations:
-    
     def __init__(self, x_center="0.5", y_center="0.5", width="1.0", height="1.0"):
         """
         Bounding box format for YOLO: <class_id> <x-center> <y-center> <width> <height>

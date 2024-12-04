@@ -48,6 +48,10 @@ class ImageADASYN:
     Balancing the dataset.
     """
     def balance(self, path_to_output_image_folder: str, number_of_neighbors = 5, debug=False):
+        if os.path.exists(path_to_output_image_folder):
+            shutil.rmtree(path_to_output_image_folder)
+        os.makedirs(path_to_output_image_folder)
+        
         max_images = np.array(self.max_map[2])
         max_labels = self.max_map[3]
         for key in self.unbalanced_maps:
@@ -77,4 +81,4 @@ class ImageADASYN:
                     else:
                         class_counter[label] += 1
                     image_index = str(class_counter[label]).zfill(2)
-                    img.save(f"{class_output_path}/{label}_{image_index}.png")
+                    img.save(f"{class_output_path}/{label}_{image_index}.jpg")

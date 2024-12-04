@@ -271,7 +271,7 @@ class DGANBalancer:
             if os.path.isdir(f"{path_to_input_image_folder}/{directory}"):
                 count = len(os.listdir(f"{path_to_input_image_folder}/{directory}"))
                 real_directories[directory]=count
-        max_id = max(real_directories)
+        max_id = max(real_directories, key=real_directories.get)
         self.total_classes = [key for key in real_directories]
         for directory in real_directories:
             diff = real_directories[max_id] - real_directories[directory]
@@ -290,7 +290,7 @@ class DGANBalancer:
             print(f"{key}: {self.maps[key][0]}, {self.maps[key][1]}")
             dgan_model = self.maps[key][1]
             dgan_model.train(
-                dataset_path=f"./dataset/training/imbalanced_flags/{key}",
+                dataset_path=f"{path_to_input_image_folder}/{key}",
                 batch_size=batch_size,
                 number_of_epochs=number_of_epochs
             )

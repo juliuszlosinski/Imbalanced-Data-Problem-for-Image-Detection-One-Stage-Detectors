@@ -49,30 +49,47 @@ class AugmentationBalancer:
             print(self.to_generate)
         
     def balance(self, path_to_output_image_folder, debug=False):
+        if os.path.exists(path_to_output_image_folder):
+            shutil.rmtree(path_to_output_image_folder)
+        os.makedirs(path_to_output_image_folder)
+
         for category in self.total_classes:
             source_folder = f"{self.path_to_folder}/{category}"
-            destination_folder =f"{path_to_output_image_folder}/{category}"
-            if os.path.exists(destination_folder) and os.path.isdir(destination_folder):
-                shutil.rmtree(destination_folder)
-            shutil.copytree(source_folder, destination_folder)
+            destination_folder = f"{path_to_output_image_folder}/{category}"
+            os.makedirs(destination_folder)
+            for file in os.listdir(source_folder):
+                source_file = os.path.join(source_folder, file)
+                destination_file = os.path.join(destination_folder, file)
+                if os.path.isfile(source_file):
+                    shutil.copy2(source_file, destination_file)
         if debug:
-            print(self.to_generate)
+            print("Classes to balance:", self.to_generate)
         for category in self.to_generate:
+            category_folder = f"{path_to_output_image_folder}/{category}"
             last_id = -1
-            for file in os.listdir(f"{path_to_output_image_folder}/{category}"):
-                id = int(file.split("_")[1].split(".")[0])
-                if id > last_id:
-                    last_id = id
+            for file in os.listdir(category_folder):
+                if file.endswith(".jpg"):
+                    try:
+                        id = int(file.split("_")[1].split(".")[0])
+                        if id > last_id:
+                            last_id = id
+                    except (IndexError, ValueError):
+                        continue
+            if last_id == -1:
+                last_id = 0
             for i in range(self.to_generate[category]):
-                selected_id = np.random.randint(0, last_id-1) + 1
-                if selected_id < 10:
-                    selected_id = f"0{selected_id}"
-                last_id = last_id + 1
-                path_to_selected_image = f"{path_to_output_image_folder}/{category}/{category}_{selected_id}.jpg"
-                path_to_generate_image = f"{path_to_output_image_folder}/{category}/{category}_{last_id}.jpg"
+                selected_id = np.random.randint(1, last_id + 1) 
+                selected_id_str = f"{selected_id:02d}"
+                last_id += 1
+                new_id_str = f"{last_id:02d}"
+                path_to_selected_image = f"{category_folder}/{category}_{selected_id_str}.jpg"
+                path_to_generate_image = f"{category_folder}/{category}_{new_id_str}.jpg"
+                if not os.path.exists(path_to_selected_image):
+                    if debug:
+                        print(f"File does not exist: {path_to_selected_image}, skipping.")
+                    continue
                 if debug:
-                    print(f"Path to selected image: {path_to_selected_image}")
-                    print(f"Path to generate image: {path_to_generate_image}\n")
+                    print(f"Augmenting: {path_to_selected_image} -> {path_to_generate_image}")
                 self.augmentation.augment_image_file(
                     path_to_selected_image,
                     path_to_generate_image
