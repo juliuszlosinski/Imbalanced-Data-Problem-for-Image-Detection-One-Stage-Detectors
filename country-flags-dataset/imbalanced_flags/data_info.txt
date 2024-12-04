@@ -1,7 +1,0 @@
-Country, Count
-China, 80
-Germany, 90
-India, 40
-Japan, 120
-UK, 110
-USA, 140

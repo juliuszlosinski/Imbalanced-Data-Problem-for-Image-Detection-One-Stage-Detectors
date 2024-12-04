@@ -24,12 +24,11 @@ class ConfigurationReader():
         
     def print(self):
         if self.initialized is True:
-            print(f"Path to input imbalanced images folder: {self.path_to_input_imbalanced_images_folder}\n")
-            print(f"Path to output balanced images folder: {self.path_to_output_balanced_images_folder}\n")
-            print(f"Size of image: ({self.width_of_image}, {self.height_of_image}, {self.number_of_channels})\n")
-            print(f"Batch size: {self.batch_size}\n")
-            print(f"Number of epochs: {self.number_of_epochs}\n")
-            print(f"Latent dimension: {self.latent_dimension}\n")
-            print(f"Learning rate: {self.learning_rate}\n")
+            print(f"Path to input imbalanced images folder: {self.path_to_input_imbalanced_images_folder}")
+            print(f"Path to output balanced images folder: {self.path_to_output_balanced_images_folder}")
+            print(f"Size of image: ({self.width_of_image}, {self.height_of_image}, {self.number_of_channels})")
+            print(f"Batch size: {self.batch_size}")
+            print(f"Number of epochs: {self.number_of_epochs}")
+            print(f"Latent dimension: {self.latent_dimension}")
+            print(f"Learning rate: {self.learning_rate}")
             print(f"Beta: {self.beta}")
-        

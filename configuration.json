@@ -1,6 +1,6 @@
 {
-    "path_to_input_imbalanced_images_folder": "./final-dataset/imbalanced_flags/",
-    "path_to_output_balanced_images_folder": "./final-dataset/balanced_flags/",
+    "path_to_input_imbalanced_images_folder": "./maritime-flags-dataset/imbalanced_flags/",
+    "path_to_output_balanced_images_folder": "./maritime-flags-dataset/balanced_flags/",
     "width_of_image": 128,
     "height_of_image": 128,
     "number_of_channels": 3,

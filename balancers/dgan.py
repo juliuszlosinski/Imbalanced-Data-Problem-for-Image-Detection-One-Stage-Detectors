@@ -262,14 +262,14 @@ class DGANBalancer:
     def __init__(self):
         pass
     
-    def fit(self, path_to_folder, latent_dimension=100, learning_rate=0.002, beta_01=0.5, batch_size=128, number_of_epochs= 200, delta=5):
-        self.path_to_folder=path_to_folder        
-        directories = os.listdir(path_to_folder)
+    def fit(self, path_to_input_image_folder, latent_dimension=100, learning_rate=0.002, beta_01=0.5, batch_size=128, number_of_epochs= 200, delta=5):
+        self.path_to_folder=path_to_input_image_folder        
+        directories = os.listdir(path_to_input_image_folder)
         real_directories = {}
         to_generate = {}
         for directory in directories:
-            if os.path.isdir(f"{path_to_folder}/{directory}"):
-                count = len(os.listdir(f"{path_to_folder}/{directory}"))
+            if os.path.isdir(f"{path_to_input_image_folder}/{directory}"):
+                count = len(os.listdir(f"{path_to_input_image_folder}/{directory}"))
                 real_directories[directory]=count
         max_id = max(real_directories)
         self.total_classes = [key for key in real_directories]
@@ -295,10 +295,10 @@ class DGANBalancer:
                 number_of_epochs=number_of_epochs
             )
             
-    def balance(self, path_to_folder, debug=False):
+    def balance(self, path_to_output_image_folder, debug=False):
         for category in self.total_classes:
             source_folder = f"{self.path_to_folder}/{category}"
-            destination_folder =f"{path_to_folder}/{category}"
+            destination_folder =f"{path_to_output_image_folder}/{category}"
             if os.path.exists(destination_folder) and os.path.isdir(destination_folder):
                 shutil.rmtree(destination_folder)
             shutil.copytree(source_folder, destination_folder)
@@ -306,11 +306,10 @@ class DGANBalancer:
             print(self.maps)
         for category in self.maps:
             last_id = -1
-            for file in os.listdir(f"{path_to_folder}/{category}"):
+            for file in os.listdir(f"{path_to_output_image_folder}/{category}"):
                 id = int(file.split("_")[1].split(".")[0])
                 if id > last_id:
                     last_id = id
             for i in range(self.maps[category][0]):
-                self.maps[category][1].predict(f"{path_to_folder}/{category}/{category}_{last_id}.jpg")
+                self.maps[category][1].predict(f"{path_to_output_image_folder}/{category}/{category}_{last_id}.jpg")
                 last_id = last_id + 1
-                
