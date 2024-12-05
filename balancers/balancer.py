@@ -1,10 +1,10 @@
-import configuration_reader
-import augmentation
-import adasyn
-import smote 
-import autoencoder 
-import dgan 
-import annotations 
+from .configuration_reader import ConfigurationReader
+from .augmentation import AugmentationBalancer
+from .adasyn import ImageADASYN
+from .smote import ImageSMOTE
+from .autoencoder import AEBalancer
+from .dgan import DGANBalancer
+from .annotations import Annotations
 
 class Balancer:
     def __init__(self, path_to_configuration):
@@ -92,5 +92,5 @@ class Balancer:
                 )
         print(f"{(len(self.mode)+20)*'='}")
         
-        def print_configuration(self):
-            self.configuration_reader.print()
+    def print_configuration(self):
+        self.configuration_reader.print()

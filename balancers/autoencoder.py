@@ -181,7 +181,8 @@ class AEBalancer:
     def balance(self, path_to_output_image_folder, debug=False):
         for category in self.total_classes:
             source_folder = f"{self.path_to_folder}/{category}"
-            destination_folder =f"{path_to_output_image_folder}/{category}"
+            destination_folder = f"{path_to_output_image_folder}/{category}"
+            
             if os.path.exists(destination_folder) and os.path.isdir(destination_folder):
                 shutil.rmtree(destination_folder)
             shutil.copytree(source_folder, destination_folder)
@@ -194,5 +195,11 @@ class AEBalancer:
                 if id > last_id:
                     last_id = id
             for i in range(self.maps[category][0]):
-                self.maps[category][1].predict(f"{path_to_output_image_folder}/{category}/{category}_{last_id}.jpg")
-                last_id = last_id + 1
+                try:
+                    last_id += 1
+                    output_file = f"{path_to_output_image_folder}/{category}/{category}_{last_id}.jpg"
+                    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+                    self.maps[category][1].predict(output_file)
+                    torch.cuda.empty_cache()
+                except Exception as e:
+                    print(f"Error generating image for category {category}: {e}")
