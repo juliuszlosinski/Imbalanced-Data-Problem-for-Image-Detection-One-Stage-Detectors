@@ -8,8 +8,6 @@ class ConfigurationReader():
         self.initialized = True
         json_file = open(path_to_configuration_file)
         conf = json.loads(json_file.read())
-        self.path_to_input_imbalanced_images_folder=conf["path_to_input_imbalanced_images_folder"]
-        self.path_to_output_balanced_images_folder=conf["path_to_output_balanced_images_folder"]
         self.width_of_image=conf["width_of_image"]
         self.height_of_image=conf["height_of_image"]
         self.number_of_channels=conf["number_of_channels"]
@@ -24,8 +22,6 @@ class ConfigurationReader():
         
     def print(self):
         if self.initialized is True:
-            print(f"Path to input imbalanced images folder: {self.path_to_input_imbalanced_images_folder}")
-            print(f"Path to output balanced images folder: {self.path_to_output_balanced_images_folder}")
             print(f"Size of image: ({self.width_of_image}, {self.height_of_image}, {self.number_of_channels})")
             print(f"Batch size: {self.batch_size}")
             print(f"Number of epochs: {self.number_of_epochs}")
