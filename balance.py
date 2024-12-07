@@ -2,7 +2,7 @@ from balancers.balancer import Balancer
 
 #methods=["SMOTE", "ADASYN", "AUGMENTATION", "DGAN", "AE"]
 methods=["AE"]
-balancer=Balancer("./configuration.json")
+balancer=Balancer("./balancer_configuration.json")
 debug=True
 
 balancer.print_configuration()
