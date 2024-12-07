@@ -21,7 +21,7 @@
 │   ├── DGAN_balanced_flags  <- Balanced flags by using DGAN balancer
 │   ├── AE_balanced_flags    <- Balanced flags by using Autoencoder balancer
 │   └── imbalanced_flags     <- Source folder with imbalanced flags
-├── datasets   <- YOLO formatted dataset
+├── datasets   <- YOLO formatted datasets
 │   ├── yolo-maritime-flags-dataset (A-Z)
 │     ├── images
 │       ├── train <- Training images (.jpg)
