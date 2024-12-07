@@ -1,5 +1,5 @@
-train: ./yolo-maritime-flags-dataset/images/train
-val: ./yolo-maritime-flags-dataset/images/train
+train: ./yolo-maritime-flags-dataset/images/test
+val: ./yolo-maritime-flags-dataset/images/test
 test: ./yolo-maritime-flags-dataset/images/test
 names:
   0: A
