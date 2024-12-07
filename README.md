@@ -1,3 +1,54 @@
+## Project Organization
+
+```
+├── documentation       <- UML diagrams
+├── archive             <- Archive/revision code
+├── balancers           <- Package with balancers and utils
+│   ├── __init__.py     <- Package identicator
+│   ├── smote.py        <- SMOTE balancer
+│   ├── adasyn.py       <- ADASYN balancer
+│   ├── augmentation.py <- Augmentation balancer
+│   ├── autoencoder.py  <- Autoencoder balancer
+│   ├── dgan.py         <- DGAN balancer
+│   ├── balancer.py     <- General balancer with all balancers
+│   ├── annotations.py  <- Annotations module
+│   └── configuration_reader.py  <- Balancer configuration reader
+├── combined-maritime-flags-dataset  <- Combined flags for manual testing
+├── maritime-flags-dataset    <- Source and balanced flags (A-Z)
+│   ├── ADASYN_balanced_flags <- Balanced flags by using ADASYN balancer
+│   ├── SMOTE_balanced_flags  <- Balanced flags by using SMOTE balancer
+│   ├── AUGMENTATION_balanced_flags  <- Balanced flags by using Augmentation balancer
+│   ├── DGAN_balanced_flags  <- Balanced flags by using DGAN balancer
+│   ├── AE_balanced_flags    <- Balanced flags by using Autoencoder balancer
+│   └── imbalanced_flags     <- Source folder with imbalanced flags
+├── datasets   <- YOLO formatted dataset
+│   ├── yolo-maritime-flags-dataset (A-Z)
+│     ├── images
+│       ├── train <- Training images (.jpg)
+│       ├── val   <- Validation images (.jpg)
+│       └── test  <- Testing images (.jpg)
+│     └── labels
+│       ├── train <- Training labels (.txt)
+│       ├── val   <- Validation labels (.txt)
+│       └── test  <- Testing labels (.txt)
+│   └── two-classes-yolo-maritime-flags-dataset (A & B)
+│     ├── images
+│       ├── train <- Training images (.jpg)
+│       ├── val   <- Validation images (.jpg)
+│       └── test  <- Testing images (.jpg)
+│     └── labels
+│       ├── train <- Training labels (.txt)
+│       ├── val   <- Validation labels (.txt)
+│       └── test  <- Testing labels (.txt)
+├── balance.py <- Balancing dataset (BALANCING)
+├── balancer_configuration.json <- Balancer configuration
+├── two_classes_yolo_data.yaml <- YOLO binary (A & B) data configuration
+├── detection.ipynb <- Training and testing yolo detector with balanced data (EVALUATIING)
+├── yolo_data.yaml <- YOLO data configuration
+├── yolo_formatter.py <- Formatter for yolo
+└── yolo_detector.py <- YOLO detector (DETECTING)
+```
+
 ## 1. Augmentation
 ![image](https://github.com/user-attachments/assets/d97ffb0f-f56e-499f-a6a3-c141c7b9d27c)
 ![image](https://github.com/user-attachments/assets/ab7e208d-e907-4bf0-bcef-4ce9a17d9e74)
