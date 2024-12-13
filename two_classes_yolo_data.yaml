@@ -1,6 +1,0 @@
-train: ./two-classes-yolo-maritime-flags-dataset/images/train
-val: ./two-classes-yolo-maritime-flags-dataset/images/train
-test: ./two-classes-yolo-maritime-flags-dataset/images/train
-names:
-  0: A
-  1: B

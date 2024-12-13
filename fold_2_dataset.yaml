@@ -1,0 +1,6 @@
+names:
+- A
+- B
+nc: 2
+train: ./cross-validation-yolo-formatted-maritime-flags/images/fold_2/train
+val: ./cross-validation-yolo-formatted-maritime-flags/images/fold_2/val
