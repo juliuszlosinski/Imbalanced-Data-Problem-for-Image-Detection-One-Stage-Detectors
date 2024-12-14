@@ -258,7 +258,6 @@ class DGAN:
         utils.save_image(fake_image, path_to_output_image, normalize=True)
         
 class DGANBalancer:
-    
     def __init__(self):
         pass
     
