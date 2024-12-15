@@ -57,8 +57,11 @@
 ├── balance.py <- Balancing dataset by using balancers package (BALANCING)
 ├── balancer_configuration.json <- Balancer configuration
 ├── detection.py     <- Training and testing yolo detector with balanced/imbalanced data (EVALUATING)
-├── yolo_data.yaml   <- YOLO data configuration
-└── yolo_detector.py <- YOLO detector (DETECTING)
+├── yolo_detector.py <- YOLO detector (DETECTING)
+├── yolo_data.yaml   <- YOLO data configuration (traing and testing)
+├── fold_1_dataset.yaml   <- YOLO first k-fold data configuration (K-cross validation)
+├── ...                   <- YOLO ... k-fold data configuration (K-cross validation)
+└── fold_n_dataset.yaml   <- YOLO n k-fold data configuration (K-cross validation)
 ```
 
 ## 3. Balancing approaches
