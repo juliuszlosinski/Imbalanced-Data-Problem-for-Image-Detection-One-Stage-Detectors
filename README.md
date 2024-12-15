@@ -4,26 +4,26 @@
 ## 2. Project Organization
 ```
 ├── documentation       <- UML diagrams
-├── archive             <- Archive/revision code
 ├── balancers           <- Package with balancers and utils
 │   ├── __init__.py     <- Package identicator
-│   ├── smote.py        <- SMOTE balancer
-│   ├── adasyn.py       <- ADASYN balancer
-│   ├── augmentation.py <- Augmentation balancer
-│   ├── autoencoder.py  <- Autoencoder balancer
-│   ├── dgan.py         <- DGAN balancer
-│   ├── balancer.py     <- General balancer with all balancers
+│   ├── smote.py        <- SMOTE balancer (interpolation)
+│   ├── adasyn.py       <- ADASYN balancer (interpolation)
+│   ├── augmentation.py <- Augmentation balancer (augmenting images like rotations, etc.)
+│   ├── autoencoder.py  <- Autoencoder balancer (learning needed!)
+│   ├── dgan.py         <- DGAN balancer (learning needed!)
+│   ├── balancer.py     <- General balancer with all balancers (aggregating all of the above)
 │   ├── annotations.py  <- Annotations module
 │   └── configuration_reader.py  <- Balancer configuration reader
-├── combined-maritime-flags-dataset  <- Combined flags for manual testing
 ├── maritime-flags-dataset    <- Source and balanced flags (A-Z)
 │   ├── ADASYN_balanced_flags <- Balanced flags by using ADASYN balancer
 │   ├── SMOTE_balanced_flags  <- Balanced flags by using SMOTE balancer
 │   ├── AUGMENTATION_balanced_flags  <- Balanced flags by using Augmentation balancer
 │   ├── DGAN_balanced_flags  <- Balanced flags by using DGAN balancer
 │   ├── AE_balanced_flags    <- Balanced flags by using Autoencoder balancer
+│   ├── combined_flags       <- Combined/test images 
+│   ├── two_flags            <- Balanced two flags (A and B) per 1000 images
 │   └── imbalanced_flags     <- Source folder with imbalanced flags
-├── datasets   <- YOLO formatted datasets
+├── datasets   <- YOLO formatted datasets (detector by default sees this category!)
 │   ├── yolo-maritime-flags-dataset (A-Z)
 │     ├── images
 │       ├── train <- Training images (.jpg)
@@ -33,21 +33,31 @@
 │       ├── train <- Training labels (.txt)
 │       ├── val   <- Validation labels (.txt)
 │       └── test  <- Testing labels (.txt)
-│   └── two-classes-yolo-maritime-flags-dataset (A & B)
+│   └── cross-validation-yolo-formatted-maritime-flags (A-Z)
 │     ├── images
-│       ├── train <- Training images (.jpg)
-│       ├── val   <- Validation images (.jpg)
-│       └── test  <- Testing images (.jpg)
+│       ├── fold_1  <- First fold with images (.jpg)
+|         ├── train <- Training images (.jpg)
+|         └── val   <- Validation images (.jpg)
+│       ├── ...     <- ... fold with images (.jpg)
+|         ├── train <- Training images (.jpg)
+|         └── val   <- Validation images (.jpg)
+│       └── fold_n  <- N-fold with images (.jpg)
+|         ├── train <- Training images (.jpg)
+|         └── val   <- Validation images (.jpg)
 │     └── labels
-│       ├── train <- Training labels (.txt)
-│       ├── val   <- Validation labels (.txt)
-│       └── test  <- Testing labels (.txt)
-├── balance.py <- Balancing dataset (BALANCING)
+│       ├── fold_1  <- First fold with labels (.txt)
+|         ├── train <- Training labels (.txt)
+|         └── val   <- Validation labels (.txt)
+│       ├── ...     <- ... fold with labels (.txt)
+|         ├── train <- Training labels (.txt)
+|         └── val   <- Validation labels (.txt)
+│       └── fold_n  <- N-fold with labels (.txt)
+|         ├── train <- Training labels (.txt)
+|         └── val   <- Validation labels (.txt)
+├── balance.py <- Balancing dataset by using balancers package (BALANCING)
 ├── balancer_configuration.json <- Balancer configuration
-├── two_classes_yolo_data.yaml <- YOLO binary (A & B) data configuration
-├── detection.ipynb <- Training and testing yolo detector with balanced data (EVALUATIING)
-├── yolo_data.yaml <- YOLO data configuration
-├── yolo_formatter.py <- Formatter for yolo
+├── detection.py     <- Training and testing yolo detector with balanced/imbalanced data (EVALUATING)
+├── yolo_data.yaml   <- YOLO data configuration
 └── yolo_detector.py <- YOLO detector (DETECTING)
 ```
 
