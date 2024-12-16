@@ -8,15 +8,15 @@ path_to_source_directory = "./maritime-flags-dataset/two_flags/" # TO CHANGE! ->
 
 # CROSS VALIDATION
 cross_validation_target_path = "./datasets/cross-validation-yolo-formatted-maritime-flags/"
-name_of_dataset = "cross-validation-yolo-formatted-maritime-flags"
+name_of_dataset = "cross-validation-yolo-formatted-maritime-flags" # Name of directory in datasets folder
 number_of_k_folds = 5
 
 # DEFAULT TRAIN/VAL/TEST split
 default_target_path = "./datasets/yolo-formatted-maritime-flags/"
 default_configuration_file = "./yolo_data.yaml" # TO CHANGE! -> A and B
-train_percent = 0.7
-test_percent = 0.2
-val_percent = 0.1
+train_percent = 0.7 # 70 [%]
+test_percent = 0.2  # 20 [%]
+val_percent = 0.1   # 10 [%]
 
 mode = 0
 
