@@ -7,6 +7,14 @@
 * mean average precision (mAP),
 * F1 score (trade-off between precision and recall).
 
+**YOLO detectors:**
+* YOLOv8 (Yolov8m ~ Medium version) - latest stable version _(REQUIRED FOR RESEARCH)_,
+* YOLOv7 (Yolov7m ~ Medium version) _(REQUIRED FOR RESEARCH)_.
+
+**SSD detectors:**
+* SSD300 - latest stable version _(REQUIRED FOR RESEARCH)_,
+* SSD512 - bigger resoultions _(ADDITIONAL FOR RESEARCH)_.
+
 ## 1. UML
 ![image](https://github.com/user-attachments/assets/91ec7ad1-c5ac-4c0a-a183-0dbfcab81b1f)
 
