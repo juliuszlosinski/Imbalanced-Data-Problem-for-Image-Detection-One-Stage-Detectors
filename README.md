@@ -1,4 +1,4 @@
-**Goal:** Research the Impact of Imbalanced and Balanced Maritime Code Flag Datasets on the Performance of One-Stage Image Detectors (YOLO family, SSD).
+**Goal:** Research the Impact of Imbalanced and Balanced Maritime Code Flag Datasets on the Performance of **One-Stage** Image Detectors (YOLO family, SSD).
 
 **Main metrics:**
 * intersection over union (IoU),
@@ -93,8 +93,18 @@
 ![image](https://github.com/user-attachments/assets/a258c8e6-738a-4f49-83a9-551c0e417edd)
 ![image](https://github.com/user-attachments/assets/e1b2da08-eef8-42b9-8601-4f2be1fe45a7)
 ![image](https://github.com/user-attachments/assets/fa11a4cf-65f0-4c4a-8154-30b7e946c234)
-![image](https://github.com/user-attachments/assets/983a0fb4-e56b-4d4d-8cfa-05634f8ae479)
 
-## 3.5. Deep Convolutional GAN
+### 3.5. Deep Convolutional GAN
 ![image](https://github.com/user-attachments/assets/627426ed-7030-46e5-b0e3-4a4a6dfb9237)
 ![image](https://github.com/user-attachments/assets/eb4c63a1-5853-4534-adba-d06291a44dfd)
+
+## 4. Detectors
+### 3.1 YOLO family
+![image](https://github.com/user-attachments/assets/88e1b964-b60c-40e1-8f63-1b21734b8544)
+
+### 3.2 SSD
+![image](https://github.com/user-attachments/assets/5c9486e3-7e14-497a-a039-7ae29c456438)
+
+### 3.3 YOLO vs SSD
+![image](https://github.com/user-attachments/assets/3faf7a1b-261c-4743-90a5-917b08d53bdd)
+![image](https://github.com/user-attachments/assets/983a0fb4-e56b-4d4d-8cfa-05634f8ae479)
