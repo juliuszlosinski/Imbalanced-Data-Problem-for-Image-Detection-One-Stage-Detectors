@@ -94,7 +94,7 @@
 ![image](https://github.com/user-attachments/assets/e1b2da08-eef8-42b9-8601-4f2be1fe45a7)
 ![image](https://github.com/user-attachments/assets/fa11a4cf-65f0-4c4a-8154-30b7e946c234)
 
-### 3.5. Deep Convolutional GAN
+### 3.5. Deep Convolutional GAN (DGAN)
 ![image](https://github.com/user-attachments/assets/627426ed-7030-46e5-b0e3-4a4a6dfb9237)
 ![image](https://github.com/user-attachments/assets/eb4c63a1-5853-4534-adba-d06291a44dfd)
 
@@ -107,4 +107,3 @@
 
 ### 3.3 YOLO vs SSD
 ![image](https://github.com/user-attachments/assets/3faf7a1b-261c-4743-90a5-917b08d53bdd)
-![image](https://github.com/user-attachments/assets/983a0fb4-e56b-4d4d-8cfa-05634f8ae479)
