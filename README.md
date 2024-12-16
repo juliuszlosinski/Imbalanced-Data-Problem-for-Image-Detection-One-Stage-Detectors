@@ -1,3 +1,12 @@
+**Goal:** Research the Impact of Imbalanced and Balanced Maritime Code Flag Datasets on the Performance of One-Stage Image Detectors (YOLO family, SSD).
+
+**Main metrics:**
+* intersection over union (IoU),
+* precision and recall,
+* average precision (AP),
+* mean average precision (mAP),
+* F1 score (trade-off between precision and recall).
+
 ## 1. UML
 ![image](https://github.com/user-attachments/assets/91ec7ad1-c5ac-4c0a-a183-0dbfcab81b1f)
 
