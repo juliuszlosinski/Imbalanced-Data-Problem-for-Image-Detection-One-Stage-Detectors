@@ -171,7 +171,7 @@ class YOLODetector:
                 shutil.copy(label_source_path, f"{label_dir}/val/{label_file}")
         print("Cross-validation set created successfully.")
        
-    def evaluate_cross_validation(self, name_of_dataset, image_size=128, number_of_epochs=32):
+    def evaluate_cross_validation(self, name_of_dataset, image_size=128, number_of_epochs=32, project_name="yolo-results", experiment_name="results"):
         for k in range(self.number_of_folds):
             train_dir = f"./{name_of_dataset}/images/fold_{k+1}/train"
             val_dir = f"./{name_of_dataset}/images/fold_{k+1}/val"
@@ -192,7 +192,9 @@ class YOLODetector:
             results = self.model.train(
                 data=yaml_file_path,
                 imgsz=image_size,
-                epochs=number_of_epochs
+                epochs=number_of_epochs,
+                project=project_name,
+                name=experiment_name
             )
             
             print(f"Results: {results}")
@@ -201,8 +203,14 @@ class YOLODetector:
             f1_score = results.results_dict.get('f1_score', 0)
             print(f"Precision: {precision}, Recall: {recall}, F1-Score: {f1_score}")
         
-    def fit(self, configuration_file, image_size=128, number_of_epochs=32):
-        self.model.train(data=configuration_file, imgsz=image_size, epochs=number_of_epochs)
+    def fit(self, configuration_file, image_size=128, number_of_epochs=32, project_name="yolo-results", experiment_name="results"):
+        self.model.train(
+            data=configuration_file, 
+            imgsz=image_size, 
+            epochs=number_of_epochs,
+            project=project_name,
+            name=experiment_name
+        )
         
     def predict(self, path_to_image=128):
         self.model(path_to_image, save=True, save_txt=True)
