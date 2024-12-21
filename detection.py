@@ -20,7 +20,9 @@ train_percent = 0.7 # 70 [%]
 test_percent = 0.2  # 20 [%]
 val_percent = 0.1   # 10 [%]
 
-detector = YOLODetector(type="yolov8s.pt") # S ~ small version
+yolo_type = "yolo11m.pt"
+# yolo_type = "yolov8m.pt"
+detector = YOLODetector(type=yolo_type) # M ~ medium version, S ~ small version.
 
 mode = 0 # 0: Train/Val/Test mode, 1: Cross validation mode
 if mode:

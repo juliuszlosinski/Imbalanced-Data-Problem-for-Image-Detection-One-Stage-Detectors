@@ -3,15 +3,15 @@ import os          # System package/built in.
 import shutil      # System package/built in.
 import json        # System package/built in.
 import random      # System package/built in.
-import numpy       # 2.2.0 : https://pypi.org/project/numpy/
-import PIL         # pillow ~ 11.0.0 : https://pypi.org/project/pillow/
-import imblearn    # 0.13.0 : https://pypi.org/project/imblearn/
-import sklearn     # scikit-learn ~ 1.6.0 : https://pypi.org/project/scikit-learn/
-import yaml        # PyYAML ~ 6.0.2 : https://pypi.org/project/PyYAML/
-import cv2         # opencv-python ~ 4.10.0 : https://pypi.org/project/opencv-python/
-import torch       # 2.5.1 : https://pypi.org/project/torch/
-import torchvision # 0.20.1 : https://pypi.org/project/torchvision/
-import ultralytics # 8.3.52 : https://pypi.org/project/ultralytics/
+import numpy       # 2.2.0                  : https://pypi.org/project/numpy/
+import PIL         # pillow (11.0.0)        : https://pypi.org/project/pillow/
+import imblearn    # 0.13.0                 : https://pypi.org/project/imblearn/
+import sklearn     # scikit-learn (1.6.0)   : https://pypi.org/project/scikit-learn/
+import yaml        # PyYAML (6.0.2)         : https://pypi.org/project/PyYAML/
+import cv2         # opencv-python (4.10.0) : https://pypi.org/project/opencv-python/
+import torch       # 2.5.1                  : https://pypi.org/project/torch/
+import torchvision # 0.20.1                 : https://pypi.org/project/torchvision/
+import ultralytics # 8.3.52                 : https://pypi.org/project/ultralytics/
 #####################################################################################
 
 '''
