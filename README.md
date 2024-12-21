@@ -8,19 +8,19 @@
 * F1 score (trade-off between precision and recall).
 
 **YOLO detectors:**
-* YOLOv8 (Yolov8m ~ Medium version) - latest stable version _(REQUIRED FOR RESEARCH)_,
-* YOLOv7 (Yolov7m ~ Medium version) _(REQUIRED FOR RESEARCH)_.
+* YOLOv11 (Yolov11m ~ Medium version) - latest stable version _(REQUIRED FOR RESEARCH)_,
+* YOLOv8 (Yolov8m ~ Medium version) _(REQUIRED FOR RESEARCH)_.
 
 **SSD detectors:**
 * SSD300 - latest stable version _(REQUIRED FOR RESEARCH)_,
 * SSD512 - bigger resoultions _(ADDITIONAL FOR RESEARCH)_.
 
 ## 1. UML
-![image](https://github.com/user-attachments/assets/91ec7ad1-c5ac-4c0a-a183-0dbfcab81b1f)
+![image](https://github.com/user-attachments/assets/f6c19f2c-3667-4fca-a97a-642abdde8f9c)
 
 ## 2. Project Organization
 ```
-├── documentation       <- UML diagrams
+├── documentation       <- UML diagrams and configuration
 ├── balancers           <- Package with balancers and utils
 │   ├── __init__.py     <- Package identicator
 │   ├── smote.py        <- SMOTE balancer (interpolation)
@@ -71,7 +71,10 @@
 │       └── fold_n  <- N-fold with labels (.txt)
 |         ├── train <- Training labels (.txt)
 |         └── val   <- Validation labels (.txt)
-├── balance.py <- Balancing dataset by using balancers package (BALANCING)
+├── .gitignore        <- Ignores venv_environment directory to be pushed (VENV)
+├── test_packages.py  <- Testing loading all necessaries packages like Torch (VENV)
+├── python_3.11_venv_requirements.txt <- List for venv with all used packages (VENV)
+├── balance.py       <- Balancing dataset by using balancers package (BALANCING)
 ├── balancer_configuration.json <- Balancer configuration
 ├── detection.py     <- Training and testing yolo detector with balanced/imbalanced data (EVALUATING)
 ├── yolo_detector.py <- YOLO detector (DETECTING)
