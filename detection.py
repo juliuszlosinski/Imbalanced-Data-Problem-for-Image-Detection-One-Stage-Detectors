@@ -22,7 +22,7 @@ val_percent = 0.1   # 10 [%]
 
 detector = YOLODetector(type="yolov8s.pt")
 
-mode = 1 # 0: Train/Val/Test mode, 1: Cross validation mode
+mode = 0 # 0: Train/Val/Test mode, 1: Cross validation mode
 if mode:
     experiment_name = f"Cross_validation-{experiment_name}"
     detector.create_cross_validation_set(

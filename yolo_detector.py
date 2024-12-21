@@ -1,8 +1,8 @@
 import os
 import shutil
 import random
-from ultralytics import YOLO
 import yaml
+from ultralytics import YOLO
 
 class YOLODetector:
     def __init__(self, type="yolov8s.pt"):

@@ -1,10 +1,10 @@
+import shutil
+import os
 import torch
 from torch.utils.data import DataLoader
 from torchvision import transforms
 from torchvision import datasets
 from torchvision import utils
-import shutil
-import os
 
 class Generator(torch.nn.Module):
     def __init__(self, latent_dimension):

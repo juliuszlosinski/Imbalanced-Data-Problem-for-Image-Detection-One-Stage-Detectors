@@ -1,11 +1,11 @@
-import torch
-import torch.optim as optim
-from torch.utils.data import DataLoader
-from torchvision import datasets, transforms
-import torch.nn as nn
-from PIL import Image
 import shutil
 import os
+import torch
+import torch.optim as optim
+import torch.nn as nn
+from torch.utils.data import DataLoader
+from torchvision import datasets, transforms
+from PIL import Image
 
 # Define the Encoder
 class Encoder(nn.Module):
