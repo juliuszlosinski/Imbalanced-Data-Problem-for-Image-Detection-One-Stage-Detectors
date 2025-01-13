@@ -1,0 +1,3753 @@
+ trytonp/compiler/gcc/13.2.0 load complete.
+ trytonp/python3/3.11.7 load complete.
+
+Loading trytonp/python3/3.11.7
+  Loading requirement: trytonp/compiler/gcc/13.2.0
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: certifi==2024.12.14 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 1)) (2024.12.14)
+Requirement already satisfied: charset-normalizer==3.4.0 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 2)) (3.4.0)
+Requirement already satisfied: colorama==0.4.6 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 3)) (0.4.6)
+Requirement already satisfied: contourpy==1.3.1 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 4)) (1.3.1)
+Requirement already satisfied: cycler==0.12.1 in /apl/trytonp/python/3.11.7/lib/python3.11/site-packages (from -r requirements.txt (line 5)) (0.12.1)
+Requirement already satisfied: filelock==3.16.1 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 6)) (3.16.1)
+Requirement already satisfied: fonttools==4.55.3 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 7)) (4.55.3)
+Requirement already satisfied: fsspec==2024.12.0 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 8)) (2024.12.0)
+Requirement already satisfied: idna==3.10 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 9)) (3.10)
+Requirement already satisfied: imbalanced-learn==0.13.0 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 10)) (0.13.0)
+Requirement already satisfied: imblearn==0.0 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 11)) (0.0)
+Requirement already satisfied: Jinja2==3.1.5 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 12)) (3.1.5)
+Requirement already satisfied: joblib==1.4.2 in /apl/trytonp/python/3.11.7/lib/python3.11/site-packages (from -r requirements.txt (line 13)) (1.4.2)
+Requirement already satisfied: kiwisolver==1.4.7 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 14)) (1.4.7)
+Requirement already satisfied: MarkupSafe==3.0.2 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 15)) (3.0.2)
+Requirement already satisfied: matplotlib==3.10.0 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 16)) (3.10.0)
+Requirement already satisfied: mpmath==1.3.0 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 17)) (1.3.0)
+Requirement already satisfied: networkx==3.4.2 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 18)) (3.4.2)
+Requirement already satisfied: numpy==2.2.0 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 19)) (2.2.0)
+Requirement already satisfied: opencv-python==4.10.0.84 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 20)) (4.10.0.84)
+Requirement already satisfied: packaging==24.2 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 21)) (24.2)
+Requirement already satisfied: pandas==2.2.3 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 22)) (2.2.3)
+Requirement already satisfied: pillow==11.0.0 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 23)) (11.0.0)
+Requirement already satisfied: psutil==6.1.1 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 24)) (6.1.1)
+Requirement already satisfied: py-cpuinfo==9.0.0 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 25)) (9.0.0)
+Requirement already satisfied: pyparsing==3.2.0 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 26)) (3.2.0)
+Requirement already satisfied: python-dateutil==2.9.0.post0 in /apl/trytonp/python/3.11.7/lib/python3.11/site-packages (from -r requirements.txt (line 27)) (2.9.0.post0)
+Requirement already satisfied: pytz==2024.2 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 28)) (2024.2)
+Requirement already satisfied: PyYAML==6.0.2 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 29)) (6.0.2)
+Requirement already satisfied: requests==2.32.3 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 30)) (2.32.3)
+Requirement already satisfied: scikit-learn==1.6.0 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 31)) (1.6.0)
+Requirement already satisfied: scipy==1.14.1 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 32)) (1.14.1)
+Requirement already satisfied: seaborn==0.13.2 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 33)) (0.13.2)
+Requirement already satisfied: six==1.17.0 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 34)) (1.17.0)
+Requirement already satisfied: sklearn-compat==0.1.3 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 35)) (0.1.3)
+Requirement already satisfied: sympy==1.13.1 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 36)) (1.13.1)
+Requirement already satisfied: threadpoolctl==3.5.0 in /apl/trytonp/python/3.11.7/lib/python3.11/site-packages (from -r requirements.txt (line 37)) (3.5.0)
+Requirement already satisfied: torch==2.5.1 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 38)) (2.5.1)
+Requirement already satisfied: torchvision==0.20.1 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 39)) (0.20.1)
+Requirement already satisfied: tqdm==4.67.1 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 40)) (4.67.1)
+Requirement already satisfied: typing_extensions==4.12.2 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 41)) (4.12.2)
+Requirement already satisfied: tzdata==2024.2 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 42)) (2024.2)
+Requirement already satisfied: ultralytics==8.3.52 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 43)) (8.3.52)
+Requirement already satisfied: ultralytics-thop==2.0.13 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 44)) (2.0.13)
+Requirement already satisfied: urllib3==2.2.3 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from -r requirements.txt (line 45)) (2.2.3)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.4.127 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from torch==2.5.1->-r requirements.txt (line 38)) (12.4.127)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.4.127 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from torch==2.5.1->-r requirements.txt (line 38)) (12.4.127)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.4.127 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from torch==2.5.1->-r requirements.txt (line 38)) (12.4.127)
+Requirement already satisfied: nvidia-cudnn-cu12==9.1.0.70 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from torch==2.5.1->-r requirements.txt (line 38)) (9.1.0.70)
+Requirement already satisfied: nvidia-cublas-cu12==12.4.5.8 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from torch==2.5.1->-r requirements.txt (line 38)) (12.4.5.8)
+Requirement already satisfied: nvidia-cufft-cu12==11.2.1.3 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from torch==2.5.1->-r requirements.txt (line 38)) (11.2.1.3)
+Requirement already satisfied: nvidia-curand-cu12==10.3.5.147 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from torch==2.5.1->-r requirements.txt (line 38)) (10.3.5.147)
+Requirement already satisfied: nvidia-cusolver-cu12==11.6.1.9 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from torch==2.5.1->-r requirements.txt (line 38)) (11.6.1.9)
+Requirement already satisfied: nvidia-cusparse-cu12==12.3.1.170 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from torch==2.5.1->-r requirements.txt (line 38)) (12.3.1.170)
+Requirement already satisfied: nvidia-nccl-cu12==2.21.5 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from torch==2.5.1->-r requirements.txt (line 38)) (2.21.5)
+Requirement already satisfied: nvidia-nvtx-cu12==12.4.127 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from torch==2.5.1->-r requirements.txt (line 38)) (12.4.127)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.4.127 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from torch==2.5.1->-r requirements.txt (line 38)) (12.4.127)
+Requirement already satisfied: triton==3.1.0 in /users/kdm/juliuszl/.local/lib/python3.11/site-packages (from torch==2.5.1->-r requirements.txt (line 38)) (3.1.0)
+
+[notice] A new release of pip is available: 23.2.1 -> 24.3.1
+[notice] To update, run: pip3 install --upgrade pip
+Size of image: (128, 128, 3)
+Batch size: 64
+Number of epochs: 100
+Latent dimension: 100
+Learning rate: 0.0002
+Beta: 0.5
+==========AE==========
+N: 499, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.6018
+Epoch [2/100], Loss: 0.3780
+Epoch [3/100], Loss: 0.2249
+Epoch [4/100], Loss: 0.1553
+Epoch [5/100], Loss: 0.1224
+Epoch [6/100], Loss: 0.1023
+Epoch [7/100], Loss: 0.0873
+Epoch [8/100], Loss: 0.0755
+Epoch [9/100], Loss: 0.0653
+Epoch [10/100], Loss: 0.0568
+Epoch [11/100], Loss: 0.0490
+Epoch [12/100], Loss: 0.0433
+Epoch [13/100], Loss: 0.0384
+Epoch [14/100], Loss: 0.0344
+Epoch [15/100], Loss: 0.0309
+Epoch [16/100], Loss: 0.0282
+Epoch [17/100], Loss: 0.0254
+Epoch [18/100], Loss: 0.0236
+Epoch [19/100], Loss: 0.0219
+Epoch [20/100], Loss: 0.0204
+Epoch [21/100], Loss: 0.0189
+Epoch [22/100], Loss: 0.0174
+Epoch [23/100], Loss: 0.0161
+Epoch [24/100], Loss: 0.0153
+Epoch [25/100], Loss: 0.0143
+Epoch [26/100], Loss: 0.0135
+Epoch [27/100], Loss: 0.0131
+Epoch [28/100], Loss: 0.0126
+Epoch [29/100], Loss: 0.0124
+Epoch [30/100], Loss: 0.0124
+Epoch [31/100], Loss: 0.0118
+Epoch [32/100], Loss: 0.0111
+Epoch [33/100], Loss: 0.0107
+Epoch [34/100], Loss: 0.0101
+Epoch [35/100], Loss: 0.0097
+Epoch [36/100], Loss: 0.0092
+Epoch [37/100], Loss: 0.0088
+Epoch [38/100], Loss: 0.0084
+Epoch [39/100], Loss: 0.0081
+Epoch [40/100], Loss: 0.0078
+Epoch [41/100], Loss: 0.0076
+Epoch [42/100], Loss: 0.0074
+Epoch [43/100], Loss: 0.0073
+Epoch [44/100], Loss: 0.0071
+Epoch [45/100], Loss: 0.0069
+Epoch [46/100], Loss: 0.0066
+Epoch [47/100], Loss: 0.0062
+Epoch [48/100], Loss: 0.0059
+Epoch [49/100], Loss: 0.0057
+Epoch [50/100], Loss: 0.0056
+Epoch [51/100], Loss: 0.0055
+Epoch [52/100], Loss: 0.0055
+Epoch [53/100], Loss: 0.0056
+Epoch [54/100], Loss: 0.0057
+Epoch [55/100], Loss: 0.0055
+Epoch [56/100], Loss: 0.0053
+Epoch [57/100], Loss: 0.0052
+Epoch [58/100], Loss: 0.0052
+Epoch [59/100], Loss: 0.0051
+Epoch [60/100], Loss: 0.0049
+Epoch [61/100], Loss: 0.0047
+Epoch [62/100], Loss: 0.0047
+Epoch [63/100], Loss: 0.0046
+Epoch [64/100], Loss: 0.0048
+Epoch [65/100], Loss: 0.0048
+Epoch [66/100], Loss: 0.0048
+Epoch [67/100], Loss: 0.0046
+Epoch [68/100], Loss: 0.0046
+Epoch [69/100], Loss: 0.0045
+Epoch [70/100], Loss: 0.0043
+Epoch [71/100], Loss: 0.0042
+Epoch [72/100], Loss: 0.0040
+Epoch [73/100], Loss: 0.0039
+Epoch [74/100], Loss: 0.0038
+Epoch [75/100], Loss: 0.0038
+Epoch [76/100], Loss: 0.0038
+Epoch [77/100], Loss: 0.0038
+Epoch [78/100], Loss: 0.0036
+Epoch [79/100], Loss: 0.0036
+Epoch [80/100], Loss: 0.0037
+Epoch [81/100], Loss: 0.0037
+Epoch [82/100], Loss: 0.0038
+Epoch [83/100], Loss: 0.0038
+Epoch [84/100], Loss: 0.0038
+Epoch [85/100], Loss: 0.0037
+Epoch [86/100], Loss: 0.0036
+Epoch [87/100], Loss: 0.0036
+Epoch [88/100], Loss: 0.0035
+Epoch [89/100], Loss: 0.0035
+Epoch [90/100], Loss: 0.0034
+Epoch [91/100], Loss: 0.0032
+Epoch [92/100], Loss: 0.0030
+Epoch [93/100], Loss: 0.0030
+Epoch [94/100], Loss: 0.0029
+Epoch [95/100], Loss: 0.0029
+Epoch [96/100], Loss: 0.0028
+Epoch [97/100], Loss: 0.0027
+Epoch [98/100], Loss: 0.0027
+Epoch [99/100], Loss: 0.0027
+Epoch [100/100], Loss: 0.0026
+B: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.5280
+Epoch [2/100], Loss: 0.4373
+Epoch [3/100], Loss: 0.3142
+Epoch [4/100], Loss: 0.1980
+Epoch [5/100], Loss: 0.1517
+Epoch [6/100], Loss: 0.1175
+Epoch [7/100], Loss: 0.0962
+Epoch [8/100], Loss: 0.0829
+Epoch [9/100], Loss: 0.0707
+Epoch [10/100], Loss: 0.0613
+Epoch [11/100], Loss: 0.0536
+Epoch [12/100], Loss: 0.0474
+Epoch [13/100], Loss: 0.0413
+Epoch [14/100], Loss: 0.0365
+Epoch [15/100], Loss: 0.0323
+Epoch [16/100], Loss: 0.0294
+Epoch [17/100], Loss: 0.0271
+Epoch [18/100], Loss: 0.0249
+Epoch [19/100], Loss: 0.0228
+Epoch [20/100], Loss: 0.0209
+Epoch [21/100], Loss: 0.0194
+Epoch [22/100], Loss: 0.0181
+Epoch [23/100], Loss: 0.0167
+Epoch [24/100], Loss: 0.0160
+Epoch [25/100], Loss: 0.0154
+Epoch [26/100], Loss: 0.0147
+Epoch [27/100], Loss: 0.0141
+Epoch [28/100], Loss: 0.0130
+Epoch [29/100], Loss: 0.0122
+Epoch [30/100], Loss: 0.0114
+Epoch [31/100], Loss: 0.0106
+Epoch [32/100], Loss: 0.0102
+Epoch [33/100], Loss: 0.0104
+Epoch [34/100], Loss: 0.0103
+Epoch [35/100], Loss: 0.0098
+Epoch [36/100], Loss: 0.0097
+Epoch [37/100], Loss: 0.0097
+Epoch [38/100], Loss: 0.0091
+Epoch [39/100], Loss: 0.0088
+Epoch [40/100], Loss: 0.0081
+Epoch [41/100], Loss: 0.0078
+Epoch [42/100], Loss: 0.0074
+Epoch [43/100], Loss: 0.0070
+Epoch [44/100], Loss: 0.0068
+Epoch [45/100], Loss: 0.0066
+Epoch [46/100], Loss: 0.0062
+Epoch [47/100], Loss: 0.0059
+Epoch [48/100], Loss: 0.0058
+Epoch [49/100], Loss: 0.0056
+Epoch [50/100], Loss: 0.0054
+Epoch [51/100], Loss: 0.0053
+Epoch [52/100], Loss: 0.0053
+Epoch [53/100], Loss: 0.0053
+Epoch [54/100], Loss: 0.0054
+Epoch [55/100], Loss: 0.0053
+Epoch [56/100], Loss: 0.0054
+Epoch [57/100], Loss: 0.0054
+Epoch [58/100], Loss: 0.0055
+Epoch [59/100], Loss: 0.0054
+Epoch [60/100], Loss: 0.0053
+Epoch [61/100], Loss: 0.0051
+Epoch [62/100], Loss: 0.0052
+Epoch [63/100], Loss: 0.0053
+Epoch [64/100], Loss: 0.0050
+Epoch [65/100], Loss: 0.0049
+Epoch [66/100], Loss: 0.0048
+Epoch [67/100], Loss: 0.0046
+Epoch [68/100], Loss: 0.0044
+Epoch [69/100], Loss: 0.0042
+Epoch [70/100], Loss: 0.0042
+Epoch [71/100], Loss: 0.0041
+Epoch [72/100], Loss: 0.0040
+Epoch [73/100], Loss: 0.0038
+Epoch [74/100], Loss: 0.0038
+Epoch [75/100], Loss: 0.0038
+Epoch [76/100], Loss: 0.0040
+Epoch [77/100], Loss: 0.0041
+Epoch [78/100], Loss: 0.0041
+Epoch [79/100], Loss: 0.0040
+Epoch [80/100], Loss: 0.0040
+Epoch [81/100], Loss: 0.0039
+Epoch [82/100], Loss: 0.0041
+Epoch [83/100], Loss: 0.0039
+Epoch [84/100], Loss: 0.0041
+Epoch [85/100], Loss: 0.0042
+Epoch [86/100], Loss: 0.0042
+Epoch [87/100], Loss: 0.0041
+Epoch [88/100], Loss: 0.0042
+Epoch [89/100], Loss: 0.0040
+Epoch [90/100], Loss: 0.0041
+Epoch [91/100], Loss: 0.0041
+Epoch [92/100], Loss: 0.0038
+Epoch [93/100], Loss: 0.0036
+Epoch [94/100], Loss: 0.0034
+Epoch [95/100], Loss: 0.0033
+Epoch [96/100], Loss: 0.0031
+Epoch [97/100], Loss: 0.0030
+Epoch [98/100], Loss: 0.0029
+Epoch [99/100], Loss: 0.0028
+Epoch [100/100], Loss: 0.0028
+P: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.4917
+Epoch [2/100], Loss: 0.3386
+Epoch [3/100], Loss: 0.2912
+Epoch [4/100], Loss: 0.2437
+Epoch [5/100], Loss: 0.1887
+Epoch [6/100], Loss: 0.1459
+Epoch [7/100], Loss: 0.1117
+Epoch [8/100], Loss: 0.0890
+Epoch [9/100], Loss: 0.0730
+Epoch [10/100], Loss: 0.0603
+Epoch [11/100], Loss: 0.0499
+Epoch [12/100], Loss: 0.0428
+Epoch [13/100], Loss: 0.0378
+Epoch [14/100], Loss: 0.0344
+Epoch [15/100], Loss: 0.0325
+Epoch [16/100], Loss: 0.0292
+Epoch [17/100], Loss: 0.0269
+Epoch [18/100], Loss: 0.0245
+Epoch [19/100], Loss: 0.0222
+Epoch [20/100], Loss: 0.0201
+Epoch [21/100], Loss: 0.0185
+Epoch [22/100], Loss: 0.0170
+Epoch [23/100], Loss: 0.0159
+Epoch [24/100], Loss: 0.0149
+Epoch [25/100], Loss: 0.0142
+Epoch [26/100], Loss: 0.0132
+Epoch [27/100], Loss: 0.0126
+Epoch [28/100], Loss: 0.0119
+Epoch [29/100], Loss: 0.0115
+Epoch [30/100], Loss: 0.0110
+Epoch [31/100], Loss: 0.0109
+Epoch [32/100], Loss: 0.0108
+Epoch [33/100], Loss: 0.0103
+Epoch [34/100], Loss: 0.0097
+Epoch [35/100], Loss: 0.0092
+Epoch [36/100], Loss: 0.0089
+Epoch [37/100], Loss: 0.0084
+Epoch [38/100], Loss: 0.0079
+Epoch [39/100], Loss: 0.0076
+Epoch [40/100], Loss: 0.0073
+Epoch [41/100], Loss: 0.0070
+Epoch [42/100], Loss: 0.0069
+Epoch [43/100], Loss: 0.0068
+Epoch [44/100], Loss: 0.0067
+Epoch [45/100], Loss: 0.0065
+Epoch [46/100], Loss: 0.0064
+Epoch [47/100], Loss: 0.0062
+Epoch [48/100], Loss: 0.0061
+Epoch [49/100], Loss: 0.0060
+Epoch [50/100], Loss: 0.0059
+Epoch [51/100], Loss: 0.0058
+Epoch [52/100], Loss: 0.0057
+Epoch [53/100], Loss: 0.0056
+Epoch [54/100], Loss: 0.0055
+Epoch [55/100], Loss: 0.0053
+Epoch [56/100], Loss: 0.0052
+Epoch [57/100], Loss: 0.0052
+Epoch [58/100], Loss: 0.0053
+Epoch [59/100], Loss: 0.0055
+Epoch [60/100], Loss: 0.0052
+Epoch [61/100], Loss: 0.0049
+Epoch [62/100], Loss: 0.0048
+Epoch [63/100], Loss: 0.0046
+Epoch [64/100], Loss: 0.0045
+Epoch [65/100], Loss: 0.0043
+Epoch [66/100], Loss: 0.0042
+Epoch [67/100], Loss: 0.0040
+Epoch [68/100], Loss: 0.0039
+Epoch [69/100], Loss: 0.0038
+Epoch [70/100], Loss: 0.0036
+Epoch [71/100], Loss: 0.0035
+Epoch [72/100], Loss: 0.0035
+Epoch [73/100], Loss: 0.0034
+Epoch [74/100], Loss: 0.0034
+Epoch [75/100], Loss: 0.0033
+Epoch [76/100], Loss: 0.0032
+Epoch [77/100], Loss: 0.0032
+Epoch [78/100], Loss: 0.0032
+Epoch [79/100], Loss: 0.0032
+Epoch [80/100], Loss: 0.0032
+Epoch [81/100], Loss: 0.0032
+Epoch [82/100], Loss: 0.0032
+Epoch [83/100], Loss: 0.0031
+Epoch [84/100], Loss: 0.0031
+Epoch [85/100], Loss: 0.0030
+Epoch [86/100], Loss: 0.0029
+Epoch [87/100], Loss: 0.0029
+Epoch [88/100], Loss: 0.0029
+Epoch [89/100], Loss: 0.0029
+Epoch [90/100], Loss: 0.0029
+Epoch [91/100], Loss: 0.0029
+Epoch [92/100], Loss: 0.0029
+Epoch [93/100], Loss: 0.0029
+Epoch [94/100], Loss: 0.0029
+Epoch [95/100], Loss: 0.0028
+Epoch [96/100], Loss: 0.0028
+Epoch [97/100], Loss: 0.0027
+Epoch [98/100], Loss: 0.0026
+Epoch [99/100], Loss: 0.0026
+Epoch [100/100], Loss: 0.0025
+W: 499, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.5702
+Epoch [2/100], Loss: 0.4383
+Epoch [3/100], Loss: 0.3680
+Epoch [4/100], Loss: 0.2947
+Epoch [5/100], Loss: 0.2232
+Epoch [6/100], Loss: 0.1677
+Epoch [7/100], Loss: 0.1286
+Epoch [8/100], Loss: 0.0993
+Epoch [9/100], Loss: 0.0803
+Epoch [10/100], Loss: 0.0669
+Epoch [11/100], Loss: 0.0573
+Epoch [12/100], Loss: 0.0506
+Epoch [13/100], Loss: 0.0448
+Epoch [14/100], Loss: 0.0402
+Epoch [15/100], Loss: 0.0362
+Epoch [16/100], Loss: 0.0333
+Epoch [17/100], Loss: 0.0304
+Epoch [18/100], Loss: 0.0280
+Epoch [19/100], Loss: 0.0260
+Epoch [20/100], Loss: 0.0234
+Epoch [21/100], Loss: 0.0218
+Epoch [22/100], Loss: 0.0198
+Epoch [23/100], Loss: 0.0184
+Epoch [24/100], Loss: 0.0171
+Epoch [25/100], Loss: 0.0159
+Epoch [26/100], Loss: 0.0149
+Epoch [27/100], Loss: 0.0140
+Epoch [28/100], Loss: 0.0133
+Epoch [29/100], Loss: 0.0125
+Epoch [30/100], Loss: 0.0118
+Epoch [31/100], Loss: 0.0112
+Epoch [32/100], Loss: 0.0107
+Epoch [33/100], Loss: 0.0102
+Epoch [34/100], Loss: 0.0098
+Epoch [35/100], Loss: 0.0095
+Epoch [36/100], Loss: 0.0093
+Epoch [37/100], Loss: 0.0089
+Epoch [38/100], Loss: 0.0085
+Epoch [39/100], Loss: 0.0082
+Epoch [40/100], Loss: 0.0080
+Epoch [41/100], Loss: 0.0077
+Epoch [42/100], Loss: 0.0075
+Epoch [43/100], Loss: 0.0073
+Epoch [44/100], Loss: 0.0070
+Epoch [45/100], Loss: 0.0067
+Epoch [46/100], Loss: 0.0065
+Epoch [47/100], Loss: 0.0061
+Epoch [48/100], Loss: 0.0059
+Epoch [49/100], Loss: 0.0058
+Epoch [50/100], Loss: 0.0056
+Epoch [51/100], Loss: 0.0053
+Epoch [52/100], Loss: 0.0052
+Epoch [53/100], Loss: 0.0051
+Epoch [54/100], Loss: 0.0050
+Epoch [55/100], Loss: 0.0049
+Epoch [56/100], Loss: 0.0048
+Epoch [57/100], Loss: 0.0047
+Epoch [58/100], Loss: 0.0048
+Epoch [59/100], Loss: 0.0051
+Epoch [60/100], Loss: 0.0052
+Epoch [61/100], Loss: 0.0050
+Epoch [62/100], Loss: 0.0049
+Epoch [63/100], Loss: 0.0050
+Epoch [64/100], Loss: 0.0048
+Epoch [65/100], Loss: 0.0045
+Epoch [66/100], Loss: 0.0043
+Epoch [67/100], Loss: 0.0041
+Epoch [68/100], Loss: 0.0039
+Epoch [69/100], Loss: 0.0037
+Epoch [70/100], Loss: 0.0036
+Epoch [71/100], Loss: 0.0036
+Epoch [72/100], Loss: 0.0035
+Epoch [73/100], Loss: 0.0034
+Epoch [74/100], Loss: 0.0033
+Epoch [75/100], Loss: 0.0033
+Epoch [76/100], Loss: 0.0033
+Epoch [77/100], Loss: 0.0033
+Epoch [78/100], Loss: 0.0033
+Epoch [79/100], Loss: 0.0032
+Epoch [80/100], Loss: 0.0031
+Epoch [81/100], Loss: 0.0030
+Epoch [82/100], Loss: 0.0030
+Epoch [83/100], Loss: 0.0029
+Epoch [84/100], Loss: 0.0029
+Epoch [85/100], Loss: 0.0028
+Epoch [86/100], Loss: 0.0028
+Epoch [87/100], Loss: 0.0028
+Epoch [88/100], Loss: 0.0028
+Epoch [89/100], Loss: 0.0028
+Epoch [90/100], Loss: 0.0027
+Epoch [91/100], Loss: 0.0027
+Epoch [92/100], Loss: 0.0027
+Epoch [93/100], Loss: 0.0027
+Epoch [94/100], Loss: 0.0027
+Epoch [95/100], Loss: 0.0027
+Epoch [96/100], Loss: 0.0026
+Epoch [97/100], Loss: 0.0027
+Epoch [98/100], Loss: 0.0027
+Epoch [99/100], Loss: 0.0026
+Epoch [100/100], Loss: 0.0027
+X: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.6048
+Epoch [2/100], Loss: 0.4440
+Epoch [3/100], Loss: 0.2932
+Epoch [4/100], Loss: 0.1947
+Epoch [5/100], Loss: 0.1364
+Epoch [6/100], Loss: 0.1072
+Epoch [7/100], Loss: 0.0880
+Epoch [8/100], Loss: 0.0747
+Epoch [9/100], Loss: 0.0635
+Epoch [10/100], Loss: 0.0551
+Epoch [11/100], Loss: 0.0482
+Epoch [12/100], Loss: 0.0428
+Epoch [13/100], Loss: 0.0385
+Epoch [14/100], Loss: 0.0347
+Epoch [15/100], Loss: 0.0315
+Epoch [16/100], Loss: 0.0285
+Epoch [17/100], Loss: 0.0265
+Epoch [18/100], Loss: 0.0239
+Epoch [19/100], Loss: 0.0218
+Epoch [20/100], Loss: 0.0203
+Epoch [21/100], Loss: 0.0188
+Epoch [22/100], Loss: 0.0177
+Epoch [23/100], Loss: 0.0167
+Epoch [24/100], Loss: 0.0159
+Epoch [25/100], Loss: 0.0150
+Epoch [26/100], Loss: 0.0142
+Epoch [27/100], Loss: 0.0133
+Epoch [28/100], Loss: 0.0124
+Epoch [29/100], Loss: 0.0119
+Epoch [30/100], Loss: 0.0113
+Epoch [31/100], Loss: 0.0107
+Epoch [32/100], Loss: 0.0103
+Epoch [33/100], Loss: 0.0097
+Epoch [34/100], Loss: 0.0093
+Epoch [35/100], Loss: 0.0091
+Epoch [36/100], Loss: 0.0088
+Epoch [37/100], Loss: 0.0085
+Epoch [38/100], Loss: 0.0083
+Epoch [39/100], Loss: 0.0081
+Epoch [40/100], Loss: 0.0077
+Epoch [41/100], Loss: 0.0076
+Epoch [42/100], Loss: 0.0073
+Epoch [43/100], Loss: 0.0072
+Epoch [44/100], Loss: 0.0070
+Epoch [45/100], Loss: 0.0067
+Epoch [46/100], Loss: 0.0065
+Epoch [47/100], Loss: 0.0063
+Epoch [48/100], Loss: 0.0061
+Epoch [49/100], Loss: 0.0059
+Epoch [50/100], Loss: 0.0057
+Epoch [51/100], Loss: 0.0055
+Epoch [52/100], Loss: 0.0055
+Epoch [53/100], Loss: 0.0053
+Epoch [54/100], Loss: 0.0052
+Epoch [55/100], Loss: 0.0051
+Epoch [56/100], Loss: 0.0052
+Epoch [57/100], Loss: 0.0050
+Epoch [58/100], Loss: 0.0048
+Epoch [59/100], Loss: 0.0047
+Epoch [60/100], Loss: 0.0046
+Epoch [61/100], Loss: 0.0045
+Epoch [62/100], Loss: 0.0044
+Epoch [63/100], Loss: 0.0044
+Epoch [64/100], Loss: 0.0042
+Epoch [65/100], Loss: 0.0041
+Epoch [66/100], Loss: 0.0041
+Epoch [67/100], Loss: 0.0040
+Epoch [68/100], Loss: 0.0041
+Epoch [69/100], Loss: 0.0040
+Epoch [70/100], Loss: 0.0040
+Epoch [71/100], Loss: 0.0040
+Epoch [72/100], Loss: 0.0039
+Epoch [73/100], Loss: 0.0037
+Epoch [74/100], Loss: 0.0037
+Epoch [75/100], Loss: 0.0036
+Epoch [76/100], Loss: 0.0035
+Epoch [77/100], Loss: 0.0034
+Epoch [78/100], Loss: 0.0034
+Epoch [79/100], Loss: 0.0033
+Epoch [80/100], Loss: 0.0033
+Epoch [81/100], Loss: 0.0033
+Epoch [82/100], Loss: 0.0032
+Epoch [83/100], Loss: 0.0033
+Epoch [84/100], Loss: 0.0033
+Epoch [85/100], Loss: 0.0034
+Epoch [86/100], Loss: 0.0034
+Epoch [87/100], Loss: 0.0034
+Epoch [88/100], Loss: 0.0039
+Epoch [89/100], Loss: 0.0036
+Epoch [90/100], Loss: 0.0033
+Epoch [91/100], Loss: 0.0032
+Epoch [92/100], Loss: 0.0031
+Epoch [93/100], Loss: 0.0030
+Epoch [94/100], Loss: 0.0029
+Epoch [95/100], Loss: 0.0028
+Epoch [96/100], Loss: 0.0027
+Epoch [97/100], Loss: 0.0026
+Epoch [98/100], Loss: 0.0025
+Epoch [99/100], Loss: 0.0025
+Epoch [100/100], Loss: 0.0024
+C: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.5579
+Epoch [2/100], Loss: 0.4553
+Epoch [3/100], Loss: 0.3463
+Epoch [4/100], Loss: 0.2267
+Epoch [5/100], Loss: 0.1774
+Epoch [6/100], Loss: 0.1503
+Epoch [7/100], Loss: 0.1296
+Epoch [8/100], Loss: 0.1132
+Epoch [9/100], Loss: 0.0973
+Epoch [10/100], Loss: 0.0832
+Epoch [11/100], Loss: 0.0710
+Epoch [12/100], Loss: 0.0609
+Epoch [13/100], Loss: 0.0524
+Epoch [14/100], Loss: 0.0456
+Epoch [15/100], Loss: 0.0407
+Epoch [16/100], Loss: 0.0382
+Epoch [17/100], Loss: 0.0364
+Epoch [18/100], Loss: 0.0330
+Epoch [19/100], Loss: 0.0308
+Epoch [20/100], Loss: 0.0282
+Epoch [21/100], Loss: 0.0259
+Epoch [22/100], Loss: 0.0233
+Epoch [23/100], Loss: 0.0221
+Epoch [24/100], Loss: 0.0203
+Epoch [25/100], Loss: 0.0190
+Epoch [26/100], Loss: 0.0185
+Epoch [27/100], Loss: 0.0178
+Epoch [28/100], Loss: 0.0168
+Epoch [29/100], Loss: 0.0159
+Epoch [30/100], Loss: 0.0151
+Epoch [31/100], Loss: 0.0142
+Epoch [32/100], Loss: 0.0138
+Epoch [33/100], Loss: 0.0134
+Epoch [34/100], Loss: 0.0125
+Epoch [35/100], Loss: 0.0117
+Epoch [36/100], Loss: 0.0113
+Epoch [37/100], Loss: 0.0109
+Epoch [38/100], Loss: 0.0103
+Epoch [39/100], Loss: 0.0100
+Epoch [40/100], Loss: 0.0098
+Epoch [41/100], Loss: 0.0096
+Epoch [42/100], Loss: 0.0092
+Epoch [43/100], Loss: 0.0090
+Epoch [44/100], Loss: 0.0088
+Epoch [45/100], Loss: 0.0085
+Epoch [46/100], Loss: 0.0084
+Epoch [47/100], Loss: 0.0084
+Epoch [48/100], Loss: 0.0082
+Epoch [49/100], Loss: 0.0081
+Epoch [50/100], Loss: 0.0080
+Epoch [51/100], Loss: 0.0080
+Epoch [52/100], Loss: 0.0080
+Epoch [53/100], Loss: 0.0078
+Epoch [54/100], Loss: 0.0077
+Epoch [55/100], Loss: 0.0074
+Epoch [56/100], Loss: 0.0072
+Epoch [57/100], Loss: 0.0072
+Epoch [58/100], Loss: 0.0068
+Epoch [59/100], Loss: 0.0067
+Epoch [60/100], Loss: 0.0066
+Epoch [61/100], Loss: 0.0066
+Epoch [62/100], Loss: 0.0065
+Epoch [63/100], Loss: 0.0063
+Epoch [64/100], Loss: 0.0060
+Epoch [65/100], Loss: 0.0058
+Epoch [66/100], Loss: 0.0057
+Epoch [67/100], Loss: 0.0055
+Epoch [68/100], Loss: 0.0054
+Epoch [69/100], Loss: 0.0052
+Epoch [70/100], Loss: 0.0050
+Epoch [71/100], Loss: 0.0049
+Epoch [72/100], Loss: 0.0049
+Epoch [73/100], Loss: 0.0048
+Epoch [74/100], Loss: 0.0047
+Epoch [75/100], Loss: 0.0046
+Epoch [76/100], Loss: 0.0045
+Epoch [77/100], Loss: 0.0044
+Epoch [78/100], Loss: 0.0044
+Epoch [79/100], Loss: 0.0043
+Epoch [80/100], Loss: 0.0043
+Epoch [81/100], Loss: 0.0042
+Epoch [82/100], Loss: 0.0042
+Epoch [83/100], Loss: 0.0043
+Epoch [84/100], Loss: 0.0044
+Epoch [85/100], Loss: 0.0044
+Epoch [86/100], Loss: 0.0045
+Epoch [87/100], Loss: 0.0044
+Epoch [88/100], Loss: 0.0044
+Epoch [89/100], Loss: 0.0044
+Epoch [90/100], Loss: 0.0044
+Epoch [91/100], Loss: 0.0044
+Epoch [92/100], Loss: 0.0042
+Epoch [93/100], Loss: 0.0042
+Epoch [94/100], Loss: 0.0040
+Epoch [95/100], Loss: 0.0040
+Epoch [96/100], Loss: 0.0038
+Epoch [97/100], Loss: 0.0039
+Epoch [98/100], Loss: 0.0039
+Epoch [99/100], Loss: 0.0040
+Epoch [100/100], Loss: 0.0040
+M: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.5974
+Epoch [2/100], Loss: 0.4831
+Epoch [3/100], Loss: 0.3327
+Epoch [4/100], Loss: 0.2378
+Epoch [5/100], Loss: 0.1760
+Epoch [6/100], Loss: 0.1357
+Epoch [7/100], Loss: 0.1095
+Epoch [8/100], Loss: 0.0884
+Epoch [9/100], Loss: 0.0720
+Epoch [10/100], Loss: 0.0600
+Epoch [11/100], Loss: 0.0516
+Epoch [12/100], Loss: 0.0450
+Epoch [13/100], Loss: 0.0396
+Epoch [14/100], Loss: 0.0352
+Epoch [15/100], Loss: 0.0320
+Epoch [16/100], Loss: 0.0290
+Epoch [17/100], Loss: 0.0268
+Epoch [18/100], Loss: 0.0249
+Epoch [19/100], Loss: 0.0234
+Epoch [20/100], Loss: 0.0219
+Epoch [21/100], Loss: 0.0206
+Epoch [22/100], Loss: 0.0197
+Epoch [23/100], Loss: 0.0188
+Epoch [24/100], Loss: 0.0180
+Epoch [25/100], Loss: 0.0167
+Epoch [26/100], Loss: 0.0155
+Epoch [27/100], Loss: 0.0145
+Epoch [28/100], Loss: 0.0139
+Epoch [29/100], Loss: 0.0131
+Epoch [30/100], Loss: 0.0126
+Epoch [31/100], Loss: 0.0123
+Epoch [32/100], Loss: 0.0122
+Epoch [33/100], Loss: 0.0117
+Epoch [34/100], Loss: 0.0113
+Epoch [35/100], Loss: 0.0109
+Epoch [36/100], Loss: 0.0104
+Epoch [37/100], Loss: 0.0099
+Epoch [38/100], Loss: 0.0095
+Epoch [39/100], Loss: 0.0092
+Epoch [40/100], Loss: 0.0090
+Epoch [41/100], Loss: 0.0088
+Epoch [42/100], Loss: 0.0086
+Epoch [43/100], Loss: 0.0084
+Epoch [44/100], Loss: 0.0083
+Epoch [45/100], Loss: 0.0082
+Epoch [46/100], Loss: 0.0081
+Epoch [47/100], Loss: 0.0079
+Epoch [48/100], Loss: 0.0077
+Epoch [49/100], Loss: 0.0075
+Epoch [50/100], Loss: 0.0074
+Epoch [51/100], Loss: 0.0072
+Epoch [52/100], Loss: 0.0072
+Epoch [53/100], Loss: 0.0071
+Epoch [54/100], Loss: 0.0071
+Epoch [55/100], Loss: 0.0068
+Epoch [56/100], Loss: 0.0066
+Epoch [57/100], Loss: 0.0067
+Epoch [58/100], Loss: 0.0069
+Epoch [59/100], Loss: 0.0067
+Epoch [60/100], Loss: 0.0065
+Epoch [61/100], Loss: 0.0064
+Epoch [62/100], Loss: 0.0061
+Epoch [63/100], Loss: 0.0060
+Epoch [64/100], Loss: 0.0059
+Epoch [65/100], Loss: 0.0057
+Epoch [66/100], Loss: 0.0055
+Epoch [67/100], Loss: 0.0054
+Epoch [68/100], Loss: 0.0052
+Epoch [69/100], Loss: 0.0051
+Epoch [70/100], Loss: 0.0050
+Epoch [71/100], Loss: 0.0049
+Epoch [72/100], Loss: 0.0049
+Epoch [73/100], Loss: 0.0048
+Epoch [74/100], Loss: 0.0047
+Epoch [75/100], Loss: 0.0047
+Epoch [76/100], Loss: 0.0046
+Epoch [77/100], Loss: 0.0045
+Epoch [78/100], Loss: 0.0045
+Epoch [79/100], Loss: 0.0044
+Epoch [80/100], Loss: 0.0044
+Epoch [81/100], Loss: 0.0045
+Epoch [82/100], Loss: 0.0046
+Epoch [83/100], Loss: 0.0046
+Epoch [84/100], Loss: 0.0046
+Epoch [85/100], Loss: 0.0045
+Epoch [86/100], Loss: 0.0044
+Epoch [87/100], Loss: 0.0043
+Epoch [88/100], Loss: 0.0042
+Epoch [89/100], Loss: 0.0042
+Epoch [90/100], Loss: 0.0042
+Epoch [91/100], Loss: 0.0042
+Epoch [92/100], Loss: 0.0041
+Epoch [93/100], Loss: 0.0041
+Epoch [94/100], Loss: 0.0040
+Epoch [95/100], Loss: 0.0040
+Epoch [96/100], Loss: 0.0040
+Epoch [97/100], Loss: 0.0040
+Epoch [98/100], Loss: 0.0039
+Epoch [99/100], Loss: 0.0039
+Epoch [100/100], Loss: 0.0038
+E: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.5404
+Epoch [2/100], Loss: 0.4630
+Epoch [3/100], Loss: 0.3849
+Epoch [4/100], Loss: 0.2614
+Epoch [5/100], Loss: 0.1603
+Epoch [6/100], Loss: 0.1130
+Epoch [7/100], Loss: 0.0881
+Epoch [8/100], Loss: 0.0698
+Epoch [9/100], Loss: 0.0557
+Epoch [10/100], Loss: 0.0468
+Epoch [11/100], Loss: 0.0402
+Epoch [12/100], Loss: 0.0356
+Epoch [13/100], Loss: 0.0327
+Epoch [14/100], Loss: 0.0297
+Epoch [15/100], Loss: 0.0269
+Epoch [16/100], Loss: 0.0249
+Epoch [17/100], Loss: 0.0236
+Epoch [18/100], Loss: 0.0233
+Epoch [19/100], Loss: 0.0219
+Epoch [20/100], Loss: 0.0208
+Epoch [21/100], Loss: 0.0194
+Epoch [22/100], Loss: 0.0180
+Epoch [23/100], Loss: 0.0165
+Epoch [24/100], Loss: 0.0154
+Epoch [25/100], Loss: 0.0144
+Epoch [26/100], Loss: 0.0136
+Epoch [27/100], Loss: 0.0128
+Epoch [28/100], Loss: 0.0123
+Epoch [29/100], Loss: 0.0118
+Epoch [30/100], Loss: 0.0114
+Epoch [31/100], Loss: 0.0110
+Epoch [32/100], Loss: 0.0107
+Epoch [33/100], Loss: 0.0102
+Epoch [34/100], Loss: 0.0101
+Epoch [35/100], Loss: 0.0098
+Epoch [36/100], Loss: 0.0096
+Epoch [37/100], Loss: 0.0093
+Epoch [38/100], Loss: 0.0091
+Epoch [39/100], Loss: 0.0090
+Epoch [40/100], Loss: 0.0087
+Epoch [41/100], Loss: 0.0085
+Epoch [42/100], Loss: 0.0082
+Epoch [43/100], Loss: 0.0080
+Epoch [44/100], Loss: 0.0077
+Epoch [45/100], Loss: 0.0075
+Epoch [46/100], Loss: 0.0072
+Epoch [47/100], Loss: 0.0069
+Epoch [48/100], Loss: 0.0067
+Epoch [49/100], Loss: 0.0067
+Epoch [50/100], Loss: 0.0067
+Epoch [51/100], Loss: 0.0065
+Epoch [52/100], Loss: 0.0065
+Epoch [53/100], Loss: 0.0064
+Epoch [54/100], Loss: 0.0062
+Epoch [55/100], Loss: 0.0061
+Epoch [56/100], Loss: 0.0059
+Epoch [57/100], Loss: 0.0059
+Epoch [58/100], Loss: 0.0060
+Epoch [59/100], Loss: 0.0062
+Epoch [60/100], Loss: 0.0063
+Epoch [61/100], Loss: 0.0063
+Epoch [62/100], Loss: 0.0065
+Epoch [63/100], Loss: 0.0066
+Epoch [64/100], Loss: 0.0064
+Epoch [65/100], Loss: 0.0063
+Epoch [66/100], Loss: 0.0063
+Epoch [67/100], Loss: 0.0062
+Epoch [68/100], Loss: 0.0057
+Epoch [69/100], Loss: 0.0054
+Epoch [70/100], Loss: 0.0052
+Epoch [71/100], Loss: 0.0050
+Epoch [72/100], Loss: 0.0049
+Epoch [73/100], Loss: 0.0046
+Epoch [74/100], Loss: 0.0043
+Epoch [75/100], Loss: 0.0043
+Epoch [76/100], Loss: 0.0041
+Epoch [77/100], Loss: 0.0040
+Epoch [78/100], Loss: 0.0040
+Epoch [79/100], Loss: 0.0039
+Epoch [80/100], Loss: 0.0039
+Epoch [81/100], Loss: 0.0038
+Epoch [82/100], Loss: 0.0038
+Epoch [83/100], Loss: 0.0038
+Epoch [84/100], Loss: 0.0037
+Epoch [85/100], Loss: 0.0037
+Epoch [86/100], Loss: 0.0037
+Epoch [87/100], Loss: 0.0036
+Epoch [88/100], Loss: 0.0037
+Epoch [89/100], Loss: 0.0038
+Epoch [90/100], Loss: 0.0038
+Epoch [91/100], Loss: 0.0039
+Epoch [92/100], Loss: 0.0041
+Epoch [93/100], Loss: 0.0041
+Epoch [94/100], Loss: 0.0043
+Epoch [95/100], Loss: 0.0047
+Epoch [96/100], Loss: 0.0048
+Epoch [97/100], Loss: 0.0047
+Epoch [98/100], Loss: 0.0046
+Epoch [99/100], Loss: 0.0046
+Epoch [100/100], Loss: 0.0044
+G: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.5632
+Epoch [2/100], Loss: 0.5332
+Epoch [3/100], Loss: 0.4657
+Epoch [4/100], Loss: 0.4028
+Epoch [5/100], Loss: 0.3708
+Epoch [6/100], Loss: 0.3087
+Epoch [7/100], Loss: 0.2294
+Epoch [8/100], Loss: 0.1812
+Epoch [9/100], Loss: 0.1472
+Epoch [10/100], Loss: 0.1157
+Epoch [11/100], Loss: 0.0924
+Epoch [12/100], Loss: 0.0767
+Epoch [13/100], Loss: 0.0653
+Epoch [14/100], Loss: 0.0572
+Epoch [15/100], Loss: 0.0507
+Epoch [16/100], Loss: 0.0454
+Epoch [17/100], Loss: 0.0414
+Epoch [18/100], Loss: 0.0380
+Epoch [19/100], Loss: 0.0345
+Epoch [20/100], Loss: 0.0317
+Epoch [21/100], Loss: 0.0295
+Epoch [22/100], Loss: 0.0276
+Epoch [23/100], Loss: 0.0263
+Epoch [24/100], Loss: 0.0253
+Epoch [25/100], Loss: 0.0244
+Epoch [26/100], Loss: 0.0232
+Epoch [27/100], Loss: 0.0217
+Epoch [28/100], Loss: 0.0204
+Epoch [29/100], Loss: 0.0193
+Epoch [30/100], Loss: 0.0182
+Epoch [31/100], Loss: 0.0173
+Epoch [32/100], Loss: 0.0167
+Epoch [33/100], Loss: 0.0159
+Epoch [34/100], Loss: 0.0152
+Epoch [35/100], Loss: 0.0146
+Epoch [36/100], Loss: 0.0141
+Epoch [37/100], Loss: 0.0136
+Epoch [38/100], Loss: 0.0133
+Epoch [39/100], Loss: 0.0135
+Epoch [40/100], Loss: 0.0133
+Epoch [41/100], Loss: 0.0128
+Epoch [42/100], Loss: 0.0123
+Epoch [43/100], Loss: 0.0117
+Epoch [44/100], Loss: 0.0112
+Epoch [45/100], Loss: 0.0108
+Epoch [46/100], Loss: 0.0105
+Epoch [47/100], Loss: 0.0101
+Epoch [48/100], Loss: 0.0098
+Epoch [49/100], Loss: 0.0096
+Epoch [50/100], Loss: 0.0095
+Epoch [51/100], Loss: 0.0092
+Epoch [52/100], Loss: 0.0091
+Epoch [53/100], Loss: 0.0089
+Epoch [54/100], Loss: 0.0087
+Epoch [55/100], Loss: 0.0086
+Epoch [56/100], Loss: 0.0085
+Epoch [57/100], Loss: 0.0085
+Epoch [58/100], Loss: 0.0084
+Epoch [59/100], Loss: 0.0083
+Epoch [60/100], Loss: 0.0082
+Epoch [61/100], Loss: 0.0080
+Epoch [62/100], Loss: 0.0079
+Epoch [63/100], Loss: 0.0078
+Epoch [64/100], Loss: 0.0075
+Epoch [65/100], Loss: 0.0072
+Epoch [66/100], Loss: 0.0071
+Epoch [67/100], Loss: 0.0069
+Epoch [68/100], Loss: 0.0068
+Epoch [69/100], Loss: 0.0067
+Epoch [70/100], Loss: 0.0065
+Epoch [71/100], Loss: 0.0063
+Epoch [72/100], Loss: 0.0061
+Epoch [73/100], Loss: 0.0060
+Epoch [74/100], Loss: 0.0060
+Epoch [75/100], Loss: 0.0058
+Epoch [76/100], Loss: 0.0057
+Epoch [77/100], Loss: 0.0056
+Epoch [78/100], Loss: 0.0055
+Epoch [79/100], Loss: 0.0054
+Epoch [80/100], Loss: 0.0054
+Epoch [81/100], Loss: 0.0052
+Epoch [82/100], Loss: 0.0052
+Epoch [83/100], Loss: 0.0052
+Epoch [84/100], Loss: 0.0053
+Epoch [85/100], Loss: 0.0052
+Epoch [86/100], Loss: 0.0053
+Epoch [87/100], Loss: 0.0053
+Epoch [88/100], Loss: 0.0052
+Epoch [89/100], Loss: 0.0055
+Epoch [90/100], Loss: 0.0055
+Epoch [91/100], Loss: 0.0055
+Epoch [92/100], Loss: 0.0053
+Epoch [93/100], Loss: 0.0051
+Epoch [94/100], Loss: 0.0049
+Epoch [95/100], Loss: 0.0047
+Epoch [96/100], Loss: 0.0046
+Epoch [97/100], Loss: 0.0045
+Epoch [98/100], Loss: 0.0044
+Epoch [99/100], Loss: 0.0043
+Epoch [100/100], Loss: 0.0042
+L: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.5878
+Epoch [2/100], Loss: 0.3921
+Epoch [3/100], Loss: 0.2719
+Epoch [4/100], Loss: 0.1919
+Epoch [5/100], Loss: 0.1415
+Epoch [6/100], Loss: 0.1090
+Epoch [7/100], Loss: 0.0866
+Epoch [8/100], Loss: 0.0707
+Epoch [9/100], Loss: 0.0601
+Epoch [10/100], Loss: 0.0516
+Epoch [11/100], Loss: 0.0460
+Epoch [12/100], Loss: 0.0402
+Epoch [13/100], Loss: 0.0360
+Epoch [14/100], Loss: 0.0328
+Epoch [15/100], Loss: 0.0300
+Epoch [16/100], Loss: 0.0276
+Epoch [17/100], Loss: 0.0256
+Epoch [18/100], Loss: 0.0234
+Epoch [19/100], Loss: 0.0213
+Epoch [20/100], Loss: 0.0195
+Epoch [21/100], Loss: 0.0179
+Epoch [22/100], Loss: 0.0168
+Epoch [23/100], Loss: 0.0155
+Epoch [24/100], Loss: 0.0144
+Epoch [25/100], Loss: 0.0135
+Epoch [26/100], Loss: 0.0131
+Epoch [27/100], Loss: 0.0127
+Epoch [28/100], Loss: 0.0123
+Epoch [29/100], Loss: 0.0118
+Epoch [30/100], Loss: 0.0112
+Epoch [31/100], Loss: 0.0108
+Epoch [32/100], Loss: 0.0103
+Epoch [33/100], Loss: 0.0099
+Epoch [34/100], Loss: 0.0096
+Epoch [35/100], Loss: 0.0092
+Epoch [36/100], Loss: 0.0089
+Epoch [37/100], Loss: 0.0085
+Epoch [38/100], Loss: 0.0081
+Epoch [39/100], Loss: 0.0079
+Epoch [40/100], Loss: 0.0078
+Epoch [41/100], Loss: 0.0076
+Epoch [42/100], Loss: 0.0072
+Epoch [43/100], Loss: 0.0070
+Epoch [44/100], Loss: 0.0067
+Epoch [45/100], Loss: 0.0065
+Epoch [46/100], Loss: 0.0063
+Epoch [47/100], Loss: 0.0060
+Epoch [48/100], Loss: 0.0059
+Epoch [49/100], Loss: 0.0058
+Epoch [50/100], Loss: 0.0059
+Epoch [51/100], Loss: 0.0060
+Epoch [52/100], Loss: 0.0059
+Epoch [53/100], Loss: 0.0058
+Epoch [54/100], Loss: 0.0058
+Epoch [55/100], Loss: 0.0055
+Epoch [56/100], Loss: 0.0053
+Epoch [57/100], Loss: 0.0051
+Epoch [58/100], Loss: 0.0051
+Epoch [59/100], Loss: 0.0049
+Epoch [60/100], Loss: 0.0046
+Epoch [61/100], Loss: 0.0045
+Epoch [62/100], Loss: 0.0044
+Epoch [63/100], Loss: 0.0045
+Epoch [64/100], Loss: 0.0046
+Epoch [65/100], Loss: 0.0044
+Epoch [66/100], Loss: 0.0044
+Epoch [67/100], Loss: 0.0041
+Epoch [68/100], Loss: 0.0041
+Epoch [69/100], Loss: 0.0040
+Epoch [70/100], Loss: 0.0039
+Epoch [71/100], Loss: 0.0038
+Epoch [72/100], Loss: 0.0038
+Epoch [73/100], Loss: 0.0037
+Epoch [74/100], Loss: 0.0036
+Epoch [75/100], Loss: 0.0036
+Epoch [76/100], Loss: 0.0036
+Epoch [77/100], Loss: 0.0035
+Epoch [78/100], Loss: 0.0034
+Epoch [79/100], Loss: 0.0034
+Epoch [80/100], Loss: 0.0034
+Epoch [81/100], Loss: 0.0035
+Epoch [82/100], Loss: 0.0036
+Epoch [83/100], Loss: 0.0036
+Epoch [84/100], Loss: 0.0035
+Epoch [85/100], Loss: 0.0035
+Epoch [86/100], Loss: 0.0034
+Epoch [87/100], Loss: 0.0033
+Epoch [88/100], Loss: 0.0032
+Epoch [89/100], Loss: 0.0031
+Epoch [90/100], Loss: 0.0030
+Epoch [91/100], Loss: 0.0030
+Epoch [92/100], Loss: 0.0030
+Epoch [93/100], Loss: 0.0029
+Epoch [94/100], Loss: 0.0029
+Epoch [95/100], Loss: 0.0028
+Epoch [96/100], Loss: 0.0027
+Epoch [97/100], Loss: 0.0027
+Epoch [98/100], Loss: 0.0027
+Epoch [99/100], Loss: 0.0027
+Epoch [100/100], Loss: 0.0027
+D: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.6622
+Epoch [2/100], Loss: 0.4729
+Epoch [3/100], Loss: 0.3964
+Epoch [4/100], Loss: 0.3683
+Epoch [5/100], Loss: 0.3373
+Epoch [6/100], Loss: 0.2886
+Epoch [7/100], Loss: 0.2030
+Epoch [8/100], Loss: 0.1229
+Epoch [9/100], Loss: 0.0889
+Epoch [10/100], Loss: 0.0729
+Epoch [11/100], Loss: 0.0627
+Epoch [12/100], Loss: 0.0560
+Epoch [13/100], Loss: 0.0507
+Epoch [14/100], Loss: 0.0468
+Epoch [15/100], Loss: 0.0428
+Epoch [16/100], Loss: 0.0391
+Epoch [17/100], Loss: 0.0366
+Epoch [18/100], Loss: 0.0343
+Epoch [19/100], Loss: 0.0315
+Epoch [20/100], Loss: 0.0297
+Epoch [21/100], Loss: 0.0292
+Epoch [22/100], Loss: 0.0278
+Epoch [23/100], Loss: 0.0259
+Epoch [24/100], Loss: 0.0241
+Epoch [25/100], Loss: 0.0223
+Epoch [26/100], Loss: 0.0211
+Epoch [27/100], Loss: 0.0201
+Epoch [28/100], Loss: 0.0188
+Epoch [29/100], Loss: 0.0179
+Epoch [30/100], Loss: 0.0169
+Epoch [31/100], Loss: 0.0161
+Epoch [32/100], Loss: 0.0153
+Epoch [33/100], Loss: 0.0148
+Epoch [34/100], Loss: 0.0146
+Epoch [35/100], Loss: 0.0139
+Epoch [36/100], Loss: 0.0131
+Epoch [37/100], Loss: 0.0125
+Epoch [38/100], Loss: 0.0120
+Epoch [39/100], Loss: 0.0114
+Epoch [40/100], Loss: 0.0110
+Epoch [41/100], Loss: 0.0109
+Epoch [42/100], Loss: 0.0108
+Epoch [43/100], Loss: 0.0109
+Epoch [44/100], Loss: 0.0105
+Epoch [45/100], Loss: 0.0106
+Epoch [46/100], Loss: 0.0102
+Epoch [47/100], Loss: 0.0101
+Epoch [48/100], Loss: 0.0097
+Epoch [49/100], Loss: 0.0090
+Epoch [50/100], Loss: 0.0087
+Epoch [51/100], Loss: 0.0084
+Epoch [52/100], Loss: 0.0080
+Epoch [53/100], Loss: 0.0077
+Epoch [54/100], Loss: 0.0074
+Epoch [55/100], Loss: 0.0073
+Epoch [56/100], Loss: 0.0072
+Epoch [57/100], Loss: 0.0071
+Epoch [58/100], Loss: 0.0071
+Epoch [59/100], Loss: 0.0071
+Epoch [60/100], Loss: 0.0075
+Epoch [61/100], Loss: 0.0071
+Epoch [62/100], Loss: 0.0068
+Epoch [63/100], Loss: 0.0066
+Epoch [64/100], Loss: 0.0064
+Epoch [65/100], Loss: 0.0063
+Epoch [66/100], Loss: 0.0061
+Epoch [67/100], Loss: 0.0060
+Epoch [68/100], Loss: 0.0058
+Epoch [69/100], Loss: 0.0058
+Epoch [70/100], Loss: 0.0055
+Epoch [71/100], Loss: 0.0055
+Epoch [72/100], Loss: 0.0053
+Epoch [73/100], Loss: 0.0053
+Epoch [74/100], Loss: 0.0053
+Epoch [75/100], Loss: 0.0053
+Epoch [76/100], Loss: 0.0053
+Epoch [77/100], Loss: 0.0054
+Epoch [78/100], Loss: 0.0054
+Epoch [79/100], Loss: 0.0053
+Epoch [80/100], Loss: 0.0052
+Epoch [81/100], Loss: 0.0052
+Epoch [82/100], Loss: 0.0050
+Epoch [83/100], Loss: 0.0049
+Epoch [84/100], Loss: 0.0049
+Epoch [85/100], Loss: 0.0047
+Epoch [86/100], Loss: 0.0049
+Epoch [87/100], Loss: 0.0054
+Epoch [88/100], Loss: 0.0057
+Epoch [89/100], Loss: 0.0056
+Epoch [90/100], Loss: 0.0052
+Epoch [91/100], Loss: 0.0052
+Epoch [92/100], Loss: 0.0050
+Epoch [93/100], Loss: 0.0048
+Epoch [94/100], Loss: 0.0045
+Epoch [95/100], Loss: 0.0043
+Epoch [96/100], Loss: 0.0042
+Epoch [97/100], Loss: 0.0041
+Epoch [98/100], Loss: 0.0045
+Epoch [99/100], Loss: 0.0049
+Epoch [100/100], Loss: 0.0047
+I: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.5888
+Epoch [2/100], Loss: 0.4542
+Epoch [3/100], Loss: 0.3948
+Epoch [4/100], Loss: 0.3078
+Epoch [5/100], Loss: 0.2404
+Epoch [6/100], Loss: 0.1754
+Epoch [7/100], Loss: 0.1238
+Epoch [8/100], Loss: 0.0942
+Epoch [9/100], Loss: 0.0794
+Epoch [10/100], Loss: 0.0682
+Epoch [11/100], Loss: 0.0584
+Epoch [12/100], Loss: 0.0511
+Epoch [13/100], Loss: 0.0455
+Epoch [14/100], Loss: 0.0412
+Epoch [15/100], Loss: 0.0375
+Epoch [16/100], Loss: 0.0345
+Epoch [17/100], Loss: 0.0317
+Epoch [18/100], Loss: 0.0292
+Epoch [19/100], Loss: 0.0269
+Epoch [20/100], Loss: 0.0247
+Epoch [21/100], Loss: 0.0234
+Epoch [22/100], Loss: 0.0220
+Epoch [23/100], Loss: 0.0210
+Epoch [24/100], Loss: 0.0195
+Epoch [25/100], Loss: 0.0190
+Epoch [26/100], Loss: 0.0184
+Epoch [27/100], Loss: 0.0172
+Epoch [28/100], Loss: 0.0165
+Epoch [29/100], Loss: 0.0159
+Epoch [30/100], Loss: 0.0155
+Epoch [31/100], Loss: 0.0149
+Epoch [32/100], Loss: 0.0143
+Epoch [33/100], Loss: 0.0135
+Epoch [34/100], Loss: 0.0129
+Epoch [35/100], Loss: 0.0123
+Epoch [36/100], Loss: 0.0120
+Epoch [37/100], Loss: 0.0118
+Epoch [38/100], Loss: 0.0114
+Epoch [39/100], Loss: 0.0110
+Epoch [40/100], Loss: 0.0107
+Epoch [41/100], Loss: 0.0105
+Epoch [42/100], Loss: 0.0102
+Epoch [43/100], Loss: 0.0098
+Epoch [44/100], Loss: 0.0097
+Epoch [45/100], Loss: 0.0101
+Epoch [46/100], Loss: 0.0097
+Epoch [47/100], Loss: 0.0093
+Epoch [48/100], Loss: 0.0089
+Epoch [49/100], Loss: 0.0087
+Epoch [50/100], Loss: 0.0084
+Epoch [51/100], Loss: 0.0082
+Epoch [52/100], Loss: 0.0080
+Epoch [53/100], Loss: 0.0077
+Epoch [54/100], Loss: 0.0075
+Epoch [55/100], Loss: 0.0072
+Epoch [56/100], Loss: 0.0070
+Epoch [57/100], Loss: 0.0069
+Epoch [58/100], Loss: 0.0068
+Epoch [59/100], Loss: 0.0067
+Epoch [60/100], Loss: 0.0065
+Epoch [61/100], Loss: 0.0066
+Epoch [62/100], Loss: 0.0065
+Epoch [63/100], Loss: 0.0065
+Epoch [64/100], Loss: 0.0063
+Epoch [65/100], Loss: 0.0062
+Epoch [66/100], Loss: 0.0061
+Epoch [67/100], Loss: 0.0059
+Epoch [68/100], Loss: 0.0058
+Epoch [69/100], Loss: 0.0056
+Epoch [70/100], Loss: 0.0054
+Epoch [71/100], Loss: 0.0053
+Epoch [72/100], Loss: 0.0052
+Epoch [73/100], Loss: 0.0051
+Epoch [74/100], Loss: 0.0051
+Epoch [75/100], Loss: 0.0050
+Epoch [76/100], Loss: 0.0050
+Epoch [77/100], Loss: 0.0050
+Epoch [78/100], Loss: 0.0050
+Epoch [79/100], Loss: 0.0050
+Epoch [80/100], Loss: 0.0051
+Epoch [81/100], Loss: 0.0052
+Epoch [82/100], Loss: 0.0052
+Epoch [83/100], Loss: 0.0051
+Epoch [84/100], Loss: 0.0050
+Epoch [85/100], Loss: 0.0051
+Epoch [86/100], Loss: 0.0050
+Epoch [87/100], Loss: 0.0051
+Epoch [88/100], Loss: 0.0048
+Epoch [89/100], Loss: 0.0047
+Epoch [90/100], Loss: 0.0046
+Epoch [91/100], Loss: 0.0046
+Epoch [92/100], Loss: 0.0044
+Epoch [93/100], Loss: 0.0044
+Epoch [94/100], Loss: 0.0043
+Epoch [95/100], Loss: 0.0042
+Epoch [96/100], Loss: 0.0041
+Epoch [97/100], Loss: 0.0041
+Epoch [98/100], Loss: 0.0041
+Epoch [99/100], Loss: 0.0040
+Epoch [100/100], Loss: 0.0039
+Z: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.6852
+Epoch [2/100], Loss: 0.6290
+Epoch [3/100], Loss: 0.5215
+Epoch [4/100], Loss: 0.4392
+Epoch [5/100], Loss: 0.3844
+Epoch [6/100], Loss: 0.3392
+Epoch [7/100], Loss: 0.2597
+Epoch [8/100], Loss: 0.1759
+Epoch [9/100], Loss: 0.1306
+Epoch [10/100], Loss: 0.1012
+Epoch [11/100], Loss: 0.0810
+Epoch [12/100], Loss: 0.0681
+Epoch [13/100], Loss: 0.0589
+Epoch [14/100], Loss: 0.0521
+Epoch [15/100], Loss: 0.0468
+Epoch [16/100], Loss: 0.0420
+Epoch [17/100], Loss: 0.0378
+Epoch [18/100], Loss: 0.0347
+Epoch [19/100], Loss: 0.0321
+Epoch [20/100], Loss: 0.0298
+Epoch [21/100], Loss: 0.0279
+Epoch [22/100], Loss: 0.0260
+Epoch [23/100], Loss: 0.0244
+Epoch [24/100], Loss: 0.0235
+Epoch [25/100], Loss: 0.0226
+Epoch [26/100], Loss: 0.0216
+Epoch [27/100], Loss: 0.0207
+Epoch [28/100], Loss: 0.0200
+Epoch [29/100], Loss: 0.0190
+Epoch [30/100], Loss: 0.0182
+Epoch [31/100], Loss: 0.0171
+Epoch [32/100], Loss: 0.0160
+Epoch [33/100], Loss: 0.0152
+Epoch [34/100], Loss: 0.0148
+Epoch [35/100], Loss: 0.0141
+Epoch [36/100], Loss: 0.0138
+Epoch [37/100], Loss: 0.0135
+Epoch [38/100], Loss: 0.0135
+Epoch [39/100], Loss: 0.0130
+Epoch [40/100], Loss: 0.0128
+Epoch [41/100], Loss: 0.0127
+Epoch [42/100], Loss: 0.0122
+Epoch [43/100], Loss: 0.0116
+Epoch [44/100], Loss: 0.0114
+Epoch [45/100], Loss: 0.0111
+Epoch [46/100], Loss: 0.0107
+Epoch [47/100], Loss: 0.0104
+Epoch [48/100], Loss: 0.0102
+Epoch [49/100], Loss: 0.0100
+Epoch [50/100], Loss: 0.0097
+Epoch [51/100], Loss: 0.0094
+Epoch [52/100], Loss: 0.0091
+Epoch [53/100], Loss: 0.0091
+Epoch [54/100], Loss: 0.0087
+Epoch [55/100], Loss: 0.0086
+Epoch [56/100], Loss: 0.0085
+Epoch [57/100], Loss: 0.0084
+Epoch [58/100], Loss: 0.0083
+Epoch [59/100], Loss: 0.0080
+Epoch [60/100], Loss: 0.0078
+Epoch [61/100], Loss: 0.0077
+Epoch [62/100], Loss: 0.0076
+Epoch [63/100], Loss: 0.0076
+Epoch [64/100], Loss: 0.0074
+Epoch [65/100], Loss: 0.0075
+Epoch [66/100], Loss: 0.0074
+Epoch [67/100], Loss: 0.0073
+Epoch [68/100], Loss: 0.0071
+Epoch [69/100], Loss: 0.0070
+Epoch [70/100], Loss: 0.0069
+Epoch [71/100], Loss: 0.0067
+Epoch [72/100], Loss: 0.0066
+Epoch [73/100], Loss: 0.0066
+Epoch [74/100], Loss: 0.0066
+Epoch [75/100], Loss: 0.0065
+Epoch [76/100], Loss: 0.0064
+Epoch [77/100], Loss: 0.0063
+Epoch [78/100], Loss: 0.0062
+Epoch [79/100], Loss: 0.0060
+Epoch [80/100], Loss: 0.0058
+Epoch [81/100], Loss: 0.0057
+Epoch [82/100], Loss: 0.0056
+Epoch [83/100], Loss: 0.0056
+Epoch [84/100], Loss: 0.0056
+Epoch [85/100], Loss: 0.0056
+Epoch [86/100], Loss: 0.0056
+Epoch [87/100], Loss: 0.0055
+Epoch [88/100], Loss: 0.0054
+Epoch [89/100], Loss: 0.0054
+Epoch [90/100], Loss: 0.0053
+Epoch [91/100], Loss: 0.0055
+Epoch [92/100], Loss: 0.0055
+Epoch [93/100], Loss: 0.0053
+Epoch [94/100], Loss: 0.0052
+Epoch [95/100], Loss: 0.0053
+Epoch [96/100], Loss: 0.0053
+Epoch [97/100], Loss: 0.0053
+Epoch [98/100], Loss: 0.0052
+Epoch [99/100], Loss: 0.0050
+Epoch [100/100], Loss: 0.0049
+O: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.5833
+Epoch [2/100], Loss: 0.4690
+Epoch [3/100], Loss: 0.4306
+Epoch [4/100], Loss: 0.3563
+Epoch [5/100], Loss: 0.2265
+Epoch [6/100], Loss: 0.1798
+Epoch [7/100], Loss: 0.1539
+Epoch [8/100], Loss: 0.1342
+Epoch [9/100], Loss: 0.1162
+Epoch [10/100], Loss: 0.0901
+Epoch [11/100], Loss: 0.0685
+Epoch [12/100], Loss: 0.0556
+Epoch [13/100], Loss: 0.0467
+Epoch [14/100], Loss: 0.0402
+Epoch [15/100], Loss: 0.0351
+Epoch [16/100], Loss: 0.0316
+Epoch [17/100], Loss: 0.0286
+Epoch [18/100], Loss: 0.0260
+Epoch [19/100], Loss: 0.0238
+Epoch [20/100], Loss: 0.0221
+Epoch [21/100], Loss: 0.0204
+Epoch [22/100], Loss: 0.0192
+Epoch [23/100], Loss: 0.0183
+Epoch [24/100], Loss: 0.0171
+Epoch [25/100], Loss: 0.0165
+Epoch [26/100], Loss: 0.0159
+Epoch [27/100], Loss: 0.0154
+Epoch [28/100], Loss: 0.0147
+Epoch [29/100], Loss: 0.0139
+Epoch [30/100], Loss: 0.0133
+Epoch [31/100], Loss: 0.0130
+Epoch [32/100], Loss: 0.0127
+Epoch [33/100], Loss: 0.0125
+Epoch [34/100], Loss: 0.0122
+Epoch [35/100], Loss: 0.0118
+Epoch [36/100], Loss: 0.0111
+Epoch [37/100], Loss: 0.0108
+Epoch [38/100], Loss: 0.0105
+Epoch [39/100], Loss: 0.0104
+Epoch [40/100], Loss: 0.0103
+Epoch [41/100], Loss: 0.0098
+Epoch [42/100], Loss: 0.0092
+Epoch [43/100], Loss: 0.0089
+Epoch [44/100], Loss: 0.0086
+Epoch [45/100], Loss: 0.0082
+Epoch [46/100], Loss: 0.0080
+Epoch [47/100], Loss: 0.0078
+Epoch [48/100], Loss: 0.0077
+Epoch [49/100], Loss: 0.0075
+Epoch [50/100], Loss: 0.0074
+Epoch [51/100], Loss: 0.0072
+Epoch [52/100], Loss: 0.0073
+Epoch [53/100], Loss: 0.0072
+Epoch [54/100], Loss: 0.0070
+Epoch [55/100], Loss: 0.0069
+Epoch [56/100], Loss: 0.0068
+Epoch [57/100], Loss: 0.0066
+Epoch [58/100], Loss: 0.0065
+Epoch [59/100], Loss: 0.0065
+Epoch [60/100], Loss: 0.0064
+Epoch [61/100], Loss: 0.0064
+Epoch [62/100], Loss: 0.0063
+Epoch [63/100], Loss: 0.0061
+Epoch [64/100], Loss: 0.0061
+Epoch [65/100], Loss: 0.0060
+Epoch [66/100], Loss: 0.0059
+Epoch [67/100], Loss: 0.0058
+Epoch [68/100], Loss: 0.0059
+Epoch [69/100], Loss: 0.0058
+Epoch [70/100], Loss: 0.0058
+Epoch [71/100], Loss: 0.0058
+Epoch [72/100], Loss: 0.0057
+Epoch [73/100], Loss: 0.0055
+Epoch [74/100], Loss: 0.0055
+Epoch [75/100], Loss: 0.0055
+Epoch [76/100], Loss: 0.0058
+Epoch [77/100], Loss: 0.0059
+Epoch [78/100], Loss: 0.0058
+Epoch [79/100], Loss: 0.0060
+Epoch [80/100], Loss: 0.0060
+Epoch [81/100], Loss: 0.0063
+Epoch [82/100], Loss: 0.0065
+Epoch [83/100], Loss: 0.0064
+Epoch [84/100], Loss: 0.0060
+Epoch [85/100], Loss: 0.0056
+Epoch [86/100], Loss: 0.0053
+Epoch [87/100], Loss: 0.0051
+Epoch [88/100], Loss: 0.0049
+Epoch [89/100], Loss: 0.0047
+Epoch [90/100], Loss: 0.0045
+Epoch [91/100], Loss: 0.0044
+Epoch [92/100], Loss: 0.0043
+Epoch [93/100], Loss: 0.0042
+Epoch [94/100], Loss: 0.0042
+Epoch [95/100], Loss: 0.0042
+Epoch [96/100], Loss: 0.0042
+Epoch [97/100], Loss: 0.0041
+Epoch [98/100], Loss: 0.0041
+Epoch [99/100], Loss: 0.0040
+Epoch [100/100], Loss: 0.0040
+Y: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.4708
+Epoch [2/100], Loss: 0.3796
+Epoch [3/100], Loss: 0.2786
+Epoch [4/100], Loss: 0.2302
+Epoch [5/100], Loss: 0.2141
+Epoch [6/100], Loss: 0.1981
+Epoch [7/100], Loss: 0.1747
+Epoch [8/100], Loss: 0.1490
+Epoch [9/100], Loss: 0.1193
+Epoch [10/100], Loss: 0.0926
+Epoch [11/100], Loss: 0.0765
+Epoch [12/100], Loss: 0.0649
+Epoch [13/100], Loss: 0.0567
+Epoch [14/100], Loss: 0.0492
+Epoch [15/100], Loss: 0.0439
+Epoch [16/100], Loss: 0.0396
+Epoch [17/100], Loss: 0.0363
+Epoch [18/100], Loss: 0.0332
+Epoch [19/100], Loss: 0.0306
+Epoch [20/100], Loss: 0.0282
+Epoch [21/100], Loss: 0.0262
+Epoch [22/100], Loss: 0.0244
+Epoch [23/100], Loss: 0.0227
+Epoch [24/100], Loss: 0.0214
+Epoch [25/100], Loss: 0.0205
+Epoch [26/100], Loss: 0.0198
+Epoch [27/100], Loss: 0.0190
+Epoch [28/100], Loss: 0.0182
+Epoch [29/100], Loss: 0.0176
+Epoch [30/100], Loss: 0.0169
+Epoch [31/100], Loss: 0.0165
+Epoch [32/100], Loss: 0.0155
+Epoch [33/100], Loss: 0.0148
+Epoch [34/100], Loss: 0.0142
+Epoch [35/100], Loss: 0.0139
+Epoch [36/100], Loss: 0.0133
+Epoch [37/100], Loss: 0.0128
+Epoch [38/100], Loss: 0.0122
+Epoch [39/100], Loss: 0.0118
+Epoch [40/100], Loss: 0.0115
+Epoch [41/100], Loss: 0.0110
+Epoch [42/100], Loss: 0.0106
+Epoch [43/100], Loss: 0.0103
+Epoch [44/100], Loss: 0.0100
+Epoch [45/100], Loss: 0.0099
+Epoch [46/100], Loss: 0.0096
+Epoch [47/100], Loss: 0.0093
+Epoch [48/100], Loss: 0.0092
+Epoch [49/100], Loss: 0.0092
+Epoch [50/100], Loss: 0.0091
+Epoch [51/100], Loss: 0.0090
+Epoch [52/100], Loss: 0.0087
+Epoch [53/100], Loss: 0.0084
+Epoch [54/100], Loss: 0.0082
+Epoch [55/100], Loss: 0.0080
+Epoch [56/100], Loss: 0.0079
+Epoch [57/100], Loss: 0.0079
+Epoch [58/100], Loss: 0.0078
+Epoch [59/100], Loss: 0.0077
+Epoch [60/100], Loss: 0.0076
+Epoch [61/100], Loss: 0.0075
+Epoch [62/100], Loss: 0.0073
+Epoch [63/100], Loss: 0.0071
+Epoch [64/100], Loss: 0.0070
+Epoch [65/100], Loss: 0.0069
+Epoch [66/100], Loss: 0.0068
+Epoch [67/100], Loss: 0.0067
+Epoch [68/100], Loss: 0.0067
+Epoch [69/100], Loss: 0.0068
+Epoch [70/100], Loss: 0.0067
+Epoch [71/100], Loss: 0.0070
+Epoch [72/100], Loss: 0.0068
+Epoch [73/100], Loss: 0.0068
+Epoch [74/100], Loss: 0.0066
+Epoch [75/100], Loss: 0.0064
+Epoch [76/100], Loss: 0.0061
+Epoch [77/100], Loss: 0.0059
+Epoch [78/100], Loss: 0.0057
+Epoch [79/100], Loss: 0.0055
+Epoch [80/100], Loss: 0.0054
+Epoch [81/100], Loss: 0.0053
+Epoch [82/100], Loss: 0.0052
+Epoch [83/100], Loss: 0.0052
+Epoch [84/100], Loss: 0.0051
+Epoch [85/100], Loss: 0.0050
+Epoch [86/100], Loss: 0.0049
+Epoch [87/100], Loss: 0.0049
+Epoch [88/100], Loss: 0.0048
+Epoch [89/100], Loss: 0.0048
+Epoch [90/100], Loss: 0.0047
+Epoch [91/100], Loss: 0.0047
+Epoch [92/100], Loss: 0.0047
+Epoch [93/100], Loss: 0.0047
+Epoch [94/100], Loss: 0.0047
+Epoch [95/100], Loss: 0.0047
+Epoch [96/100], Loss: 0.0047
+Epoch [97/100], Loss: 0.0046
+Epoch [98/100], Loss: 0.0047
+Epoch [99/100], Loss: 0.0047
+Epoch [100/100], Loss: 0.0047
+R: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.5704
+Epoch [2/100], Loss: 0.3976
+Epoch [3/100], Loss: 0.3628
+Epoch [4/100], Loss: 0.3279
+Epoch [5/100], Loss: 0.2333
+Epoch [6/100], Loss: 0.1839
+Epoch [7/100], Loss: 0.1456
+Epoch [8/100], Loss: 0.1121
+Epoch [9/100], Loss: 0.0865
+Epoch [10/100], Loss: 0.0699
+Epoch [11/100], Loss: 0.0589
+Epoch [12/100], Loss: 0.0510
+Epoch [13/100], Loss: 0.0444
+Epoch [14/100], Loss: 0.0398
+Epoch [15/100], Loss: 0.0357
+Epoch [16/100], Loss: 0.0326
+Epoch [17/100], Loss: 0.0298
+Epoch [18/100], Loss: 0.0276
+Epoch [19/100], Loss: 0.0256
+Epoch [20/100], Loss: 0.0238
+Epoch [21/100], Loss: 0.0219
+Epoch [22/100], Loss: 0.0202
+Epoch [23/100], Loss: 0.0188
+Epoch [24/100], Loss: 0.0178
+Epoch [25/100], Loss: 0.0167
+Epoch [26/100], Loss: 0.0157
+Epoch [27/100], Loss: 0.0150
+Epoch [28/100], Loss: 0.0145
+Epoch [29/100], Loss: 0.0139
+Epoch [30/100], Loss: 0.0132
+Epoch [31/100], Loss: 0.0126
+Epoch [32/100], Loss: 0.0122
+Epoch [33/100], Loss: 0.0118
+Epoch [34/100], Loss: 0.0113
+Epoch [35/100], Loss: 0.0108
+Epoch [36/100], Loss: 0.0103
+Epoch [37/100], Loss: 0.0099
+Epoch [38/100], Loss: 0.0096
+Epoch [39/100], Loss: 0.0093
+Epoch [40/100], Loss: 0.0090
+Epoch [41/100], Loss: 0.0088
+Epoch [42/100], Loss: 0.0086
+Epoch [43/100], Loss: 0.0086
+Epoch [44/100], Loss: 0.0084
+Epoch [45/100], Loss: 0.0083
+Epoch [46/100], Loss: 0.0085
+Epoch [47/100], Loss: 0.0085
+Epoch [48/100], Loss: 0.0081
+Epoch [49/100], Loss: 0.0077
+Epoch [50/100], Loss: 0.0074
+Epoch [51/100], Loss: 0.0071
+Epoch [52/100], Loss: 0.0068
+Epoch [53/100], Loss: 0.0066
+Epoch [54/100], Loss: 0.0065
+Epoch [55/100], Loss: 0.0063
+Epoch [56/100], Loss: 0.0062
+Epoch [57/100], Loss: 0.0060
+Epoch [58/100], Loss: 0.0060
+Epoch [59/100], Loss: 0.0060
+Epoch [60/100], Loss: 0.0060
+Epoch [61/100], Loss: 0.0059
+Epoch [62/100], Loss: 0.0057
+Epoch [63/100], Loss: 0.0057
+Epoch [64/100], Loss: 0.0056
+Epoch [65/100], Loss: 0.0054
+Epoch [66/100], Loss: 0.0054
+Epoch [67/100], Loss: 0.0054
+Epoch [68/100], Loss: 0.0054
+Epoch [69/100], Loss: 0.0053
+Epoch [70/100], Loss: 0.0052
+Epoch [71/100], Loss: 0.0051
+Epoch [72/100], Loss: 0.0050
+Epoch [73/100], Loss: 0.0049
+Epoch [74/100], Loss: 0.0047
+Epoch [75/100], Loss: 0.0046
+Epoch [76/100], Loss: 0.0046
+Epoch [77/100], Loss: 0.0045
+Epoch [78/100], Loss: 0.0044
+Epoch [79/100], Loss: 0.0043
+Epoch [80/100], Loss: 0.0042
+Epoch [81/100], Loss: 0.0044
+Epoch [82/100], Loss: 0.0044
+Epoch [83/100], Loss: 0.0045
+Epoch [84/100], Loss: 0.0046
+Epoch [85/100], Loss: 0.0049
+Epoch [86/100], Loss: 0.0049
+Epoch [87/100], Loss: 0.0048
+Epoch [88/100], Loss: 0.0046
+Epoch [89/100], Loss: 0.0045
+Epoch [90/100], Loss: 0.0044
+Epoch [91/100], Loss: 0.0042
+Epoch [92/100], Loss: 0.0040
+Epoch [93/100], Loss: 0.0039
+Epoch [94/100], Loss: 0.0038
+Epoch [95/100], Loss: 0.0036
+Epoch [96/100], Loss: 0.0035
+Epoch [97/100], Loss: 0.0035
+Epoch [98/100], Loss: 0.0035
+Epoch [99/100], Loss: 0.0038
+Epoch [100/100], Loss: 0.0040
+T: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.6840
+Epoch [2/100], Loss: 0.5860
+Epoch [3/100], Loss: 0.4056
+Epoch [4/100], Loss: 0.3093
+Epoch [5/100], Loss: 0.2571
+Epoch [6/100], Loss: 0.2258
+Epoch [7/100], Loss: 0.1990
+Epoch [8/100], Loss: 0.1593
+Epoch [9/100], Loss: 0.1203
+Epoch [10/100], Loss: 0.0953
+Epoch [11/100], Loss: 0.0792
+Epoch [12/100], Loss: 0.0668
+Epoch [13/100], Loss: 0.0567
+Epoch [14/100], Loss: 0.0489
+Epoch [15/100], Loss: 0.0426
+Epoch [16/100], Loss: 0.0378
+Epoch [17/100], Loss: 0.0343
+Epoch [18/100], Loss: 0.0312
+Epoch [19/100], Loss: 0.0285
+Epoch [20/100], Loss: 0.0262
+Epoch [21/100], Loss: 0.0242
+Epoch [22/100], Loss: 0.0225
+Epoch [23/100], Loss: 0.0213
+Epoch [24/100], Loss: 0.0202
+Epoch [25/100], Loss: 0.0191
+Epoch [26/100], Loss: 0.0185
+Epoch [27/100], Loss: 0.0180
+Epoch [28/100], Loss: 0.0173
+Epoch [29/100], Loss: 0.0167
+Epoch [30/100], Loss: 0.0159
+Epoch [31/100], Loss: 0.0152
+Epoch [32/100], Loss: 0.0143
+Epoch [33/100], Loss: 0.0135
+Epoch [34/100], Loss: 0.0132
+Epoch [35/100], Loss: 0.0126
+Epoch [36/100], Loss: 0.0122
+Epoch [37/100], Loss: 0.0116
+Epoch [38/100], Loss: 0.0112
+Epoch [39/100], Loss: 0.0109
+Epoch [40/100], Loss: 0.0106
+Epoch [41/100], Loss: 0.0102
+Epoch [42/100], Loss: 0.0098
+Epoch [43/100], Loss: 0.0099
+Epoch [44/100], Loss: 0.0097
+Epoch [45/100], Loss: 0.0095
+Epoch [46/100], Loss: 0.0091
+Epoch [47/100], Loss: 0.0089
+Epoch [48/100], Loss: 0.0086
+Epoch [49/100], Loss: 0.0082
+Epoch [50/100], Loss: 0.0077
+Epoch [51/100], Loss: 0.0075
+Epoch [52/100], Loss: 0.0072
+Epoch [53/100], Loss: 0.0069
+Epoch [54/100], Loss: 0.0067
+Epoch [55/100], Loss: 0.0066
+Epoch [56/100], Loss: 0.0065
+Epoch [57/100], Loss: 0.0064
+Epoch [58/100], Loss: 0.0063
+Epoch [59/100], Loss: 0.0062
+Epoch [60/100], Loss: 0.0061
+Epoch [61/100], Loss: 0.0059
+Epoch [62/100], Loss: 0.0058
+Epoch [63/100], Loss: 0.0057
+Epoch [64/100], Loss: 0.0055
+Epoch [65/100], Loss: 0.0053
+Epoch [66/100], Loss: 0.0051
+Epoch [67/100], Loss: 0.0051
+Epoch [68/100], Loss: 0.0051
+Epoch [69/100], Loss: 0.0051
+Epoch [70/100], Loss: 0.0051
+Epoch [71/100], Loss: 0.0051
+Epoch [72/100], Loss: 0.0051
+Epoch [73/100], Loss: 0.0052
+Epoch [74/100], Loss: 0.0051
+Epoch [75/100], Loss: 0.0052
+Epoch [76/100], Loss: 0.0055
+Epoch [77/100], Loss: 0.0053
+Epoch [78/100], Loss: 0.0051
+Epoch [79/100], Loss: 0.0048
+Epoch [80/100], Loss: 0.0045
+Epoch [81/100], Loss: 0.0044
+Epoch [82/100], Loss: 0.0042
+Epoch [83/100], Loss: 0.0042
+Epoch [84/100], Loss: 0.0040
+Epoch [85/100], Loss: 0.0040
+Epoch [86/100], Loss: 0.0039
+Epoch [87/100], Loss: 0.0039
+Epoch [88/100], Loss: 0.0038
+Epoch [89/100], Loss: 0.0037
+Epoch [90/100], Loss: 0.0036
+Epoch [91/100], Loss: 0.0036
+Epoch [92/100], Loss: 0.0035
+Epoch [93/100], Loss: 0.0034
+Epoch [94/100], Loss: 0.0034
+Epoch [95/100], Loss: 0.0034
+Epoch [96/100], Loss: 0.0033
+Epoch [97/100], Loss: 0.0033
+Epoch [98/100], Loss: 0.0033
+Epoch [99/100], Loss: 0.0032
+Epoch [100/100], Loss: 0.0032
+V: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.6254
+Epoch [2/100], Loss: 0.4552
+Epoch [3/100], Loss: 0.3661
+Epoch [4/100], Loss: 0.2822
+Epoch [5/100], Loss: 0.1997
+Epoch [6/100], Loss: 0.1487
+Epoch [7/100], Loss: 0.1166
+Epoch [8/100], Loss: 0.0950
+Epoch [9/100], Loss: 0.0806
+Epoch [10/100], Loss: 0.0695
+Epoch [11/100], Loss: 0.0615
+Epoch [12/100], Loss: 0.0551
+Epoch [13/100], Loss: 0.0492
+Epoch [14/100], Loss: 0.0446
+Epoch [15/100], Loss: 0.0415
+Epoch [16/100], Loss: 0.0379
+Epoch [17/100], Loss: 0.0345
+Epoch [18/100], Loss: 0.0317
+Epoch [19/100], Loss: 0.0297
+Epoch [20/100], Loss: 0.0278
+Epoch [21/100], Loss: 0.0266
+Epoch [22/100], Loss: 0.0253
+Epoch [23/100], Loss: 0.0245
+Epoch [24/100], Loss: 0.0235
+Epoch [25/100], Loss: 0.0224
+Epoch [26/100], Loss: 0.0218
+Epoch [27/100], Loss: 0.0210
+Epoch [28/100], Loss: 0.0204
+Epoch [29/100], Loss: 0.0191
+Epoch [30/100], Loss: 0.0183
+Epoch [31/100], Loss: 0.0172
+Epoch [32/100], Loss: 0.0164
+Epoch [33/100], Loss: 0.0161
+Epoch [34/100], Loss: 0.0159
+Epoch [35/100], Loss: 0.0159
+Epoch [36/100], Loss: 0.0153
+Epoch [37/100], Loss: 0.0149
+Epoch [38/100], Loss: 0.0145
+Epoch [39/100], Loss: 0.0138
+Epoch [40/100], Loss: 0.0131
+Epoch [41/100], Loss: 0.0125
+Epoch [42/100], Loss: 0.0121
+Epoch [43/100], Loss: 0.0119
+Epoch [44/100], Loss: 0.0117
+Epoch [45/100], Loss: 0.0115
+Epoch [46/100], Loss: 0.0115
+Epoch [47/100], Loss: 0.0115
+Epoch [48/100], Loss: 0.0115
+Epoch [49/100], Loss: 0.0113
+Epoch [50/100], Loss: 0.0110
+Epoch [51/100], Loss: 0.0104
+Epoch [52/100], Loss: 0.0100
+Epoch [53/100], Loss: 0.0095
+Epoch [54/100], Loss: 0.0093
+Epoch [55/100], Loss: 0.0091
+Epoch [56/100], Loss: 0.0088
+Epoch [57/100], Loss: 0.0086
+Epoch [58/100], Loss: 0.0084
+Epoch [59/100], Loss: 0.0084
+Epoch [60/100], Loss: 0.0084
+Epoch [61/100], Loss: 0.0083
+Epoch [62/100], Loss: 0.0083
+Epoch [63/100], Loss: 0.0083
+Epoch [64/100], Loss: 0.0083
+Epoch [65/100], Loss: 0.0083
+Epoch [66/100], Loss: 0.0083
+Epoch [67/100], Loss: 0.0082
+Epoch [68/100], Loss: 0.0079
+Epoch [69/100], Loss: 0.0075
+Epoch [70/100], Loss: 0.0074
+Epoch [71/100], Loss: 0.0071
+Epoch [72/100], Loss: 0.0069
+Epoch [73/100], Loss: 0.0068
+Epoch [74/100], Loss: 0.0068
+Epoch [75/100], Loss: 0.0067
+Epoch [76/100], Loss: 0.0066
+Epoch [77/100], Loss: 0.0066
+Epoch [78/100], Loss: 0.0066
+Epoch [79/100], Loss: 0.0065
+Epoch [80/100], Loss: 0.0063
+Epoch [81/100], Loss: 0.0064
+Epoch [82/100], Loss: 0.0063
+Epoch [83/100], Loss: 0.0062
+Epoch [84/100], Loss: 0.0060
+Epoch [85/100], Loss: 0.0060
+Epoch [86/100], Loss: 0.0060
+Epoch [87/100], Loss: 0.0059
+Epoch [88/100], Loss: 0.0060
+Epoch [89/100], Loss: 0.0060
+Epoch [90/100], Loss: 0.0058
+Epoch [91/100], Loss: 0.0060
+Epoch [92/100], Loss: 0.0061
+Epoch [93/100], Loss: 0.0062
+Epoch [94/100], Loss: 0.0062
+Epoch [95/100], Loss: 0.0060
+Epoch [96/100], Loss: 0.0062
+Epoch [97/100], Loss: 0.0060
+Epoch [98/100], Loss: 0.0059
+Epoch [99/100], Loss: 0.0058
+Epoch [100/100], Loss: 0.0055
+U: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.6629
+Epoch [2/100], Loss: 0.5710
+Epoch [3/100], Loss: 0.3979
+Epoch [4/100], Loss: 0.2341
+Epoch [5/100], Loss: 0.1709
+Epoch [6/100], Loss: 0.1334
+Epoch [7/100], Loss: 0.1102
+Epoch [8/100], Loss: 0.0931
+Epoch [9/100], Loss: 0.0799
+Epoch [10/100], Loss: 0.0687
+Epoch [11/100], Loss: 0.0591
+Epoch [12/100], Loss: 0.0519
+Epoch [13/100], Loss: 0.0461
+Epoch [14/100], Loss: 0.0415
+Epoch [15/100], Loss: 0.0376
+Epoch [16/100], Loss: 0.0344
+Epoch [17/100], Loss: 0.0316
+Epoch [18/100], Loss: 0.0290
+Epoch [19/100], Loss: 0.0265
+Epoch [20/100], Loss: 0.0249
+Epoch [21/100], Loss: 0.0233
+Epoch [22/100], Loss: 0.0219
+Epoch [23/100], Loss: 0.0207
+Epoch [24/100], Loss: 0.0193
+Epoch [25/100], Loss: 0.0178
+Epoch [26/100], Loss: 0.0169
+Epoch [27/100], Loss: 0.0163
+Epoch [28/100], Loss: 0.0155
+Epoch [29/100], Loss: 0.0148
+Epoch [30/100], Loss: 0.0144
+Epoch [31/100], Loss: 0.0137
+Epoch [32/100], Loss: 0.0130
+Epoch [33/100], Loss: 0.0123
+Epoch [34/100], Loss: 0.0120
+Epoch [35/100], Loss: 0.0115
+Epoch [36/100], Loss: 0.0111
+Epoch [37/100], Loss: 0.0107
+Epoch [38/100], Loss: 0.0103
+Epoch [39/100], Loss: 0.0100
+Epoch [40/100], Loss: 0.0098
+Epoch [41/100], Loss: 0.0096
+Epoch [42/100], Loss: 0.0096
+Epoch [43/100], Loss: 0.0093
+Epoch [44/100], Loss: 0.0093
+Epoch [45/100], Loss: 0.0091
+Epoch [46/100], Loss: 0.0088
+Epoch [47/100], Loss: 0.0086
+Epoch [48/100], Loss: 0.0083
+Epoch [49/100], Loss: 0.0081
+Epoch [50/100], Loss: 0.0078
+Epoch [51/100], Loss: 0.0078
+Epoch [52/100], Loss: 0.0076
+Epoch [53/100], Loss: 0.0072
+Epoch [54/100], Loss: 0.0069
+Epoch [55/100], Loss: 0.0068
+Epoch [56/100], Loss: 0.0065
+Epoch [57/100], Loss: 0.0063
+Epoch [58/100], Loss: 0.0061
+Epoch [59/100], Loss: 0.0059
+Epoch [60/100], Loss: 0.0058
+Epoch [61/100], Loss: 0.0056
+Epoch [62/100], Loss: 0.0054
+Epoch [63/100], Loss: 0.0054
+Epoch [64/100], Loss: 0.0053
+Epoch [65/100], Loss: 0.0052
+Epoch [66/100], Loss: 0.0052
+Epoch [67/100], Loss: 0.0053
+Epoch [68/100], Loss: 0.0054
+Epoch [69/100], Loss: 0.0054
+Epoch [70/100], Loss: 0.0053
+Epoch [71/100], Loss: 0.0056
+Epoch [72/100], Loss: 0.0058
+Epoch [73/100], Loss: 0.0061
+Epoch [74/100], Loss: 0.0059
+Epoch [75/100], Loss: 0.0058
+Epoch [76/100], Loss: 0.0057
+Epoch [77/100], Loss: 0.0057
+Epoch [78/100], Loss: 0.0054
+Epoch [79/100], Loss: 0.0051
+Epoch [80/100], Loss: 0.0049
+Epoch [81/100], Loss: 0.0047
+Epoch [82/100], Loss: 0.0047
+Epoch [83/100], Loss: 0.0045
+Epoch [84/100], Loss: 0.0043
+Epoch [85/100], Loss: 0.0041
+Epoch [86/100], Loss: 0.0040
+Epoch [87/100], Loss: 0.0039
+Epoch [88/100], Loss: 0.0039
+Epoch [89/100], Loss: 0.0038
+Epoch [90/100], Loss: 0.0038
+Epoch [91/100], Loss: 0.0038
+Epoch [92/100], Loss: 0.0038
+Epoch [93/100], Loss: 0.0037
+Epoch [94/100], Loss: 0.0037
+Epoch [95/100], Loss: 0.0037
+Epoch [96/100], Loss: 0.0038
+Epoch [97/100], Loss: 0.0037
+Epoch [98/100], Loss: 0.0036
+Epoch [99/100], Loss: 0.0035
+Epoch [100/100], Loss: 0.0034
+S: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.4935
+Epoch [2/100], Loss: 0.3215
+Epoch [3/100], Loss: 0.2466
+Epoch [4/100], Loss: 0.2004
+Epoch [5/100], Loss: 0.1574
+Epoch [6/100], Loss: 0.1218
+Epoch [7/100], Loss: 0.1032
+Epoch [8/100], Loss: 0.0909
+Epoch [9/100], Loss: 0.0794
+Epoch [10/100], Loss: 0.0700
+Epoch [11/100], Loss: 0.0606
+Epoch [12/100], Loss: 0.0528
+Epoch [13/100], Loss: 0.0473
+Epoch [14/100], Loss: 0.0431
+Epoch [15/100], Loss: 0.0398
+Epoch [16/100], Loss: 0.0359
+Epoch [17/100], Loss: 0.0329
+Epoch [18/100], Loss: 0.0306
+Epoch [19/100], Loss: 0.0276
+Epoch [20/100], Loss: 0.0252
+Epoch [21/100], Loss: 0.0230
+Epoch [22/100], Loss: 0.0207
+Epoch [23/100], Loss: 0.0193
+Epoch [24/100], Loss: 0.0181
+Epoch [25/100], Loss: 0.0168
+Epoch [26/100], Loss: 0.0159
+Epoch [27/100], Loss: 0.0155
+Epoch [28/100], Loss: 0.0146
+Epoch [29/100], Loss: 0.0136
+Epoch [30/100], Loss: 0.0129
+Epoch [31/100], Loss: 0.0123
+Epoch [32/100], Loss: 0.0121
+Epoch [33/100], Loss: 0.0114
+Epoch [34/100], Loss: 0.0111
+Epoch [35/100], Loss: 0.0106
+Epoch [36/100], Loss: 0.0101
+Epoch [37/100], Loss: 0.0096
+Epoch [38/100], Loss: 0.0093
+Epoch [39/100], Loss: 0.0089
+Epoch [40/100], Loss: 0.0086
+Epoch [41/100], Loss: 0.0082
+Epoch [42/100], Loss: 0.0080
+Epoch [43/100], Loss: 0.0078
+Epoch [44/100], Loss: 0.0077
+Epoch [45/100], Loss: 0.0077
+Epoch [46/100], Loss: 0.0074
+Epoch [47/100], Loss: 0.0073
+Epoch [48/100], Loss: 0.0072
+Epoch [49/100], Loss: 0.0071
+Epoch [50/100], Loss: 0.0072
+Epoch [51/100], Loss: 0.0071
+Epoch [52/100], Loss: 0.0067
+Epoch [53/100], Loss: 0.0065
+Epoch [54/100], Loss: 0.0062
+Epoch [55/100], Loss: 0.0061
+Epoch [56/100], Loss: 0.0059
+Epoch [57/100], Loss: 0.0057
+Epoch [58/100], Loss: 0.0056
+Epoch [59/100], Loss: 0.0055
+Epoch [60/100], Loss: 0.0052
+Epoch [61/100], Loss: 0.0050
+Epoch [62/100], Loss: 0.0049
+Epoch [63/100], Loss: 0.0047
+Epoch [64/100], Loss: 0.0047
+Epoch [65/100], Loss: 0.0046
+Epoch [66/100], Loss: 0.0045
+Epoch [67/100], Loss: 0.0044
+Epoch [68/100], Loss: 0.0045
+Epoch [69/100], Loss: 0.0045
+Epoch [70/100], Loss: 0.0046
+Epoch [71/100], Loss: 0.0045
+Epoch [72/100], Loss: 0.0043
+Epoch [73/100], Loss: 0.0042
+Epoch [74/100], Loss: 0.0041
+Epoch [75/100], Loss: 0.0041
+Epoch [76/100], Loss: 0.0042
+Epoch [77/100], Loss: 0.0043
+Epoch [78/100], Loss: 0.0045
+Epoch [79/100], Loss: 0.0045
+Epoch [80/100], Loss: 0.0044
+Epoch [81/100], Loss: 0.0042
+Epoch [82/100], Loss: 0.0042
+Epoch [83/100], Loss: 0.0041
+Epoch [84/100], Loss: 0.0039
+Epoch [85/100], Loss: 0.0037
+Epoch [86/100], Loss: 0.0036
+Epoch [87/100], Loss: 0.0036
+Epoch [88/100], Loss: 0.0034
+Epoch [89/100], Loss: 0.0034
+Epoch [90/100], Loss: 0.0033
+Epoch [91/100], Loss: 0.0032
+Epoch [92/100], Loss: 0.0031
+Epoch [93/100], Loss: 0.0031
+Epoch [94/100], Loss: 0.0031
+Epoch [95/100], Loss: 0.0030
+Epoch [96/100], Loss: 0.0030
+Epoch [97/100], Loss: 0.0030
+Epoch [98/100], Loss: 0.0031
+Epoch [99/100], Loss: 0.0032
+Epoch [100/100], Loss: 0.0033
+K: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.5081
+Epoch [2/100], Loss: 0.2283
+Epoch [3/100], Loss: 0.1470
+Epoch [4/100], Loss: 0.1167
+Epoch [5/100], Loss: 0.0988
+Epoch [6/100], Loss: 0.0844
+Epoch [7/100], Loss: 0.0670
+Epoch [8/100], Loss: 0.0522
+Epoch [9/100], Loss: 0.0433
+Epoch [10/100], Loss: 0.0381
+Epoch [11/100], Loss: 0.0328
+Epoch [12/100], Loss: 0.0294
+Epoch [13/100], Loss: 0.0272
+Epoch [14/100], Loss: 0.0248
+Epoch [15/100], Loss: 0.0229
+Epoch [16/100], Loss: 0.0211
+Epoch [17/100], Loss: 0.0196
+Epoch [18/100], Loss: 0.0181
+Epoch [19/100], Loss: 0.0171
+Epoch [20/100], Loss: 0.0159
+Epoch [21/100], Loss: 0.0147
+Epoch [22/100], Loss: 0.0140
+Epoch [23/100], Loss: 0.0128
+Epoch [24/100], Loss: 0.0121
+Epoch [25/100], Loss: 0.0115
+Epoch [26/100], Loss: 0.0111
+Epoch [27/100], Loss: 0.0107
+Epoch [28/100], Loss: 0.0102
+Epoch [29/100], Loss: 0.0095
+Epoch [30/100], Loss: 0.0088
+Epoch [31/100], Loss: 0.0086
+Epoch [32/100], Loss: 0.0081
+Epoch [33/100], Loss: 0.0077
+Epoch [34/100], Loss: 0.0072
+Epoch [35/100], Loss: 0.0071
+Epoch [36/100], Loss: 0.0070
+Epoch [37/100], Loss: 0.0068
+Epoch [38/100], Loss: 0.0065
+Epoch [39/100], Loss: 0.0063
+Epoch [40/100], Loss: 0.0061
+Epoch [41/100], Loss: 0.0059
+Epoch [42/100], Loss: 0.0057
+Epoch [43/100], Loss: 0.0054
+Epoch [44/100], Loss: 0.0052
+Epoch [45/100], Loss: 0.0051
+Epoch [46/100], Loss: 0.0049
+Epoch [47/100], Loss: 0.0049
+Epoch [48/100], Loss: 0.0047
+Epoch [49/100], Loss: 0.0046
+Epoch [50/100], Loss: 0.0044
+Epoch [51/100], Loss: 0.0044
+Epoch [52/100], Loss: 0.0043
+Epoch [53/100], Loss: 0.0043
+Epoch [54/100], Loss: 0.0042
+Epoch [55/100], Loss: 0.0040
+Epoch [56/100], Loss: 0.0038
+Epoch [57/100], Loss: 0.0038
+Epoch [58/100], Loss: 0.0038
+Epoch [59/100], Loss: 0.0037
+Epoch [60/100], Loss: 0.0037
+Epoch [61/100], Loss: 0.0037
+Epoch [62/100], Loss: 0.0038
+Epoch [63/100], Loss: 0.0039
+Epoch [64/100], Loss: 0.0037
+Epoch [65/100], Loss: 0.0035
+Epoch [66/100], Loss: 0.0034
+Epoch [67/100], Loss: 0.0032
+Epoch [68/100], Loss: 0.0031
+Epoch [69/100], Loss: 0.0031
+Epoch [70/100], Loss: 0.0030
+Epoch [71/100], Loss: 0.0029
+Epoch [72/100], Loss: 0.0029
+Epoch [73/100], Loss: 0.0029
+Epoch [74/100], Loss: 0.0027
+Epoch [75/100], Loss: 0.0027
+Epoch [76/100], Loss: 0.0027
+Epoch [77/100], Loss: 0.0026
+Epoch [78/100], Loss: 0.0025
+Epoch [79/100], Loss: 0.0025
+Epoch [80/100], Loss: 0.0024
+Epoch [81/100], Loss: 0.0024
+Epoch [82/100], Loss: 0.0024
+Epoch [83/100], Loss: 0.0024
+Epoch [84/100], Loss: 0.0024
+Epoch [85/100], Loss: 0.0024
+Epoch [86/100], Loss: 0.0023
+Epoch [87/100], Loss: 0.0023
+Epoch [88/100], Loss: 0.0023
+Epoch [89/100], Loss: 0.0023
+Epoch [90/100], Loss: 0.0022
+Epoch [91/100], Loss: 0.0022
+Epoch [92/100], Loss: 0.0022
+Epoch [93/100], Loss: 0.0022
+Epoch [94/100], Loss: 0.0022
+Epoch [95/100], Loss: 0.0022
+Epoch [96/100], Loss: 0.0021
+Epoch [97/100], Loss: 0.0021
+Epoch [98/100], Loss: 0.0021
+Epoch [99/100], Loss: 0.0020
+Epoch [100/100], Loss: 0.0020
+J: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.6702
+Epoch [2/100], Loss: 0.5580
+Epoch [3/100], Loss: 0.4139
+Epoch [4/100], Loss: 0.2985
+Epoch [5/100], Loss: 0.2073
+Epoch [6/100], Loss: 0.1500
+Epoch [7/100], Loss: 0.1209
+Epoch [8/100], Loss: 0.1008
+Epoch [9/100], Loss: 0.0882
+Epoch [10/100], Loss: 0.0761
+Epoch [11/100], Loss: 0.0662
+Epoch [12/100], Loss: 0.0580
+Epoch [13/100], Loss: 0.0512
+Epoch [14/100], Loss: 0.0453
+Epoch [15/100], Loss: 0.0408
+Epoch [16/100], Loss: 0.0371
+Epoch [17/100], Loss: 0.0344
+Epoch [18/100], Loss: 0.0316
+Epoch [19/100], Loss: 0.0294
+Epoch [20/100], Loss: 0.0268
+Epoch [21/100], Loss: 0.0246
+Epoch [22/100], Loss: 0.0228
+Epoch [23/100], Loss: 0.0209
+Epoch [24/100], Loss: 0.0195
+Epoch [25/100], Loss: 0.0181
+Epoch [26/100], Loss: 0.0168
+Epoch [27/100], Loss: 0.0160
+Epoch [28/100], Loss: 0.0155
+Epoch [29/100], Loss: 0.0145
+Epoch [30/100], Loss: 0.0139
+Epoch [31/100], Loss: 0.0134
+Epoch [32/100], Loss: 0.0127
+Epoch [33/100], Loss: 0.0125
+Epoch [34/100], Loss: 0.0122
+Epoch [35/100], Loss: 0.0120
+Epoch [36/100], Loss: 0.0116
+Epoch [37/100], Loss: 0.0113
+Epoch [38/100], Loss: 0.0110
+Epoch [39/100], Loss: 0.0107
+Epoch [40/100], Loss: 0.0101
+Epoch [41/100], Loss: 0.0099
+Epoch [42/100], Loss: 0.0095
+Epoch [43/100], Loss: 0.0092
+Epoch [44/100], Loss: 0.0089
+Epoch [45/100], Loss: 0.0085
+Epoch [46/100], Loss: 0.0081
+Epoch [47/100], Loss: 0.0077
+Epoch [48/100], Loss: 0.0075
+Epoch [49/100], Loss: 0.0074
+Epoch [50/100], Loss: 0.0072
+Epoch [51/100], Loss: 0.0070
+Epoch [52/100], Loss: 0.0068
+Epoch [53/100], Loss: 0.0067
+Epoch [54/100], Loss: 0.0066
+Epoch [55/100], Loss: 0.0067
+Epoch [56/100], Loss: 0.0066
+Epoch [57/100], Loss: 0.0065
+Epoch [58/100], Loss: 0.0065
+Epoch [59/100], Loss: 0.0064
+Epoch [60/100], Loss: 0.0061
+Epoch [61/100], Loss: 0.0058
+Epoch [62/100], Loss: 0.0055
+Epoch [63/100], Loss: 0.0053
+Epoch [64/100], Loss: 0.0051
+Epoch [65/100], Loss: 0.0050
+Epoch [66/100], Loss: 0.0049
+Epoch [67/100], Loss: 0.0049
+Epoch [68/100], Loss: 0.0049
+Epoch [69/100], Loss: 0.0048
+Epoch [70/100], Loss: 0.0047
+Epoch [71/100], Loss: 0.0047
+Epoch [72/100], Loss: 0.0046
+Epoch [73/100], Loss: 0.0046
+Epoch [74/100], Loss: 0.0045
+Epoch [75/100], Loss: 0.0044
+Epoch [76/100], Loss: 0.0043
+Epoch [77/100], Loss: 0.0041
+Epoch [78/100], Loss: 0.0041
+Epoch [79/100], Loss: 0.0040
+Epoch [80/100], Loss: 0.0039
+Epoch [81/100], Loss: 0.0039
+Epoch [82/100], Loss: 0.0038
+Epoch [83/100], Loss: 0.0038
+Epoch [84/100], Loss: 0.0037
+Epoch [85/100], Loss: 0.0038
+Epoch [86/100], Loss: 0.0037
+Epoch [87/100], Loss: 0.0038
+Epoch [88/100], Loss: 0.0039
+Epoch [89/100], Loss: 0.0039
+Epoch [90/100], Loss: 0.0038
+Epoch [91/100], Loss: 0.0037
+Epoch [92/100], Loss: 0.0036
+Epoch [93/100], Loss: 0.0036
+Epoch [94/100], Loss: 0.0034
+Epoch [95/100], Loss: 0.0033
+Epoch [96/100], Loss: 0.0033
+Epoch [97/100], Loss: 0.0033
+Epoch [98/100], Loss: 0.0032
+Epoch [99/100], Loss: 0.0032
+Epoch [100/100], Loss: 0.0031
+Q: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.5368
+Epoch [2/100], Loss: 0.3590
+Epoch [3/100], Loss: 0.3185
+Epoch [4/100], Loss: 0.2723
+Epoch [5/100], Loss: 0.1971
+Epoch [6/100], Loss: 0.1619
+Epoch [7/100], Loss: 0.1448
+Epoch [8/100], Loss: 0.1282
+Epoch [9/100], Loss: 0.1112
+Epoch [10/100], Loss: 0.0948
+Epoch [11/100], Loss: 0.0782
+Epoch [12/100], Loss: 0.0662
+Epoch [13/100], Loss: 0.0580
+Epoch [14/100], Loss: 0.0507
+Epoch [15/100], Loss: 0.0438
+Epoch [16/100], Loss: 0.0389
+Epoch [17/100], Loss: 0.0355
+Epoch [18/100], Loss: 0.0322
+Epoch [19/100], Loss: 0.0293
+Epoch [20/100], Loss: 0.0269
+Epoch [21/100], Loss: 0.0243
+Epoch [22/100], Loss: 0.0225
+Epoch [23/100], Loss: 0.0209
+Epoch [24/100], Loss: 0.0195
+Epoch [25/100], Loss: 0.0183
+Epoch [26/100], Loss: 0.0174
+Epoch [27/100], Loss: 0.0167
+Epoch [28/100], Loss: 0.0157
+Epoch [29/100], Loss: 0.0151
+Epoch [30/100], Loss: 0.0148
+Epoch [31/100], Loss: 0.0141
+Epoch [32/100], Loss: 0.0134
+Epoch [33/100], Loss: 0.0130
+Epoch [34/100], Loss: 0.0124
+Epoch [35/100], Loss: 0.0119
+Epoch [36/100], Loss: 0.0115
+Epoch [37/100], Loss: 0.0111
+Epoch [38/100], Loss: 0.0108
+Epoch [39/100], Loss: 0.0108
+Epoch [40/100], Loss: 0.0104
+Epoch [41/100], Loss: 0.0102
+Epoch [42/100], Loss: 0.0099
+Epoch [43/100], Loss: 0.0097
+Epoch [44/100], Loss: 0.0093
+Epoch [45/100], Loss: 0.0091
+Epoch [46/100], Loss: 0.0088
+Epoch [47/100], Loss: 0.0084
+Epoch [48/100], Loss: 0.0082
+Epoch [49/100], Loss: 0.0080
+Epoch [50/100], Loss: 0.0079
+Epoch [51/100], Loss: 0.0075
+Epoch [52/100], Loss: 0.0072
+Epoch [53/100], Loss: 0.0071
+Epoch [54/100], Loss: 0.0069
+Epoch [55/100], Loss: 0.0068
+Epoch [56/100], Loss: 0.0067
+Epoch [57/100], Loss: 0.0067
+Epoch [58/100], Loss: 0.0067
+Epoch [59/100], Loss: 0.0067
+Epoch [60/100], Loss: 0.0067
+Epoch [61/100], Loss: 0.0066
+Epoch [62/100], Loss: 0.0064
+Epoch [63/100], Loss: 0.0063
+Epoch [64/100], Loss: 0.0059
+Epoch [65/100], Loss: 0.0058
+Epoch [66/100], Loss: 0.0058
+Epoch [67/100], Loss: 0.0057
+Epoch [68/100], Loss: 0.0056
+Epoch [69/100], Loss: 0.0056
+Epoch [70/100], Loss: 0.0055
+Epoch [71/100], Loss: 0.0054
+Epoch [72/100], Loss: 0.0052
+Epoch [73/100], Loss: 0.0051
+Epoch [74/100], Loss: 0.0050
+Epoch [75/100], Loss: 0.0050
+Epoch [76/100], Loss: 0.0051
+Epoch [77/100], Loss: 0.0049
+Epoch [78/100], Loss: 0.0047
+Epoch [79/100], Loss: 0.0046
+Epoch [80/100], Loss: 0.0045
+Epoch [81/100], Loss: 0.0044
+Epoch [82/100], Loss: 0.0042
+Epoch [83/100], Loss: 0.0042
+Epoch [84/100], Loss: 0.0042
+Epoch [85/100], Loss: 0.0042
+Epoch [86/100], Loss: 0.0043
+Epoch [87/100], Loss: 0.0042
+Epoch [88/100], Loss: 0.0041
+Epoch [89/100], Loss: 0.0041
+Epoch [90/100], Loss: 0.0040
+Epoch [91/100], Loss: 0.0041
+Epoch [92/100], Loss: 0.0041
+Epoch [93/100], Loss: 0.0039
+Epoch [94/100], Loss: 0.0039
+Epoch [95/100], Loss: 0.0037
+Epoch [96/100], Loss: 0.0036
+Epoch [97/100], Loss: 0.0037
+Epoch [98/100], Loss: 0.0037
+Epoch [99/100], Loss: 0.0039
+Epoch [100/100], Loss: 0.0041
+H: 499, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.7117
+Epoch [2/100], Loss: 0.5753
+Epoch [3/100], Loss: 0.3812
+Epoch [4/100], Loss: 0.2914
+Epoch [5/100], Loss: 0.1534
+Epoch [6/100], Loss: 0.0922
+Epoch [7/100], Loss: 0.0672
+Epoch [8/100], Loss: 0.0553
+Epoch [9/100], Loss: 0.0488
+Epoch [10/100], Loss: 0.0457
+Epoch [11/100], Loss: 0.0428
+Epoch [12/100], Loss: 0.0399
+Epoch [13/100], Loss: 0.0373
+Epoch [14/100], Loss: 0.0351
+Epoch [15/100], Loss: 0.0331
+Epoch [16/100], Loss: 0.0314
+Epoch [17/100], Loss: 0.0301
+Epoch [18/100], Loss: 0.0286
+Epoch [19/100], Loss: 0.0271
+Epoch [20/100], Loss: 0.0256
+Epoch [21/100], Loss: 0.0241
+Epoch [22/100], Loss: 0.0229
+Epoch [23/100], Loss: 0.0212
+Epoch [24/100], Loss: 0.0198
+Epoch [25/100], Loss: 0.0186
+Epoch [26/100], Loss: 0.0173
+Epoch [27/100], Loss: 0.0162
+Epoch [28/100], Loss: 0.0156
+Epoch [29/100], Loss: 0.0151
+Epoch [30/100], Loss: 0.0143
+Epoch [31/100], Loss: 0.0134
+Epoch [32/100], Loss: 0.0127
+Epoch [33/100], Loss: 0.0122
+Epoch [34/100], Loss: 0.0117
+Epoch [35/100], Loss: 0.0115
+Epoch [36/100], Loss: 0.0109
+Epoch [37/100], Loss: 0.0102
+Epoch [38/100], Loss: 0.0098
+Epoch [39/100], Loss: 0.0094
+Epoch [40/100], Loss: 0.0089
+Epoch [41/100], Loss: 0.0085
+Epoch [42/100], Loss: 0.0081
+Epoch [43/100], Loss: 0.0078
+Epoch [44/100], Loss: 0.0078
+Epoch [45/100], Loss: 0.0077
+Epoch [46/100], Loss: 0.0076
+Epoch [47/100], Loss: 0.0072
+Epoch [48/100], Loss: 0.0070
+Epoch [49/100], Loss: 0.0067
+Epoch [50/100], Loss: 0.0064
+Epoch [51/100], Loss: 0.0061
+Epoch [52/100], Loss: 0.0060
+Epoch [53/100], Loss: 0.0057
+Epoch [54/100], Loss: 0.0055
+Epoch [55/100], Loss: 0.0052
+Epoch [56/100], Loss: 0.0052
+Epoch [57/100], Loss: 0.0049
+Epoch [58/100], Loss: 0.0048
+Epoch [59/100], Loss: 0.0047
+Epoch [60/100], Loss: 0.0046
+Epoch [61/100], Loss: 0.0046
+Epoch [62/100], Loss: 0.0044
+Epoch [63/100], Loss: 0.0043
+Epoch [64/100], Loss: 0.0043
+Epoch [65/100], Loss: 0.0043
+Epoch [66/100], Loss: 0.0042
+Epoch [67/100], Loss: 0.0040
+Epoch [68/100], Loss: 0.0039
+Epoch [69/100], Loss: 0.0038
+Epoch [70/100], Loss: 0.0037
+Epoch [71/100], Loss: 0.0037
+Epoch [72/100], Loss: 0.0036
+Epoch [73/100], Loss: 0.0037
+Epoch [74/100], Loss: 0.0037
+Epoch [75/100], Loss: 0.0038
+Epoch [76/100], Loss: 0.0037
+Epoch [77/100], Loss: 0.0037
+Epoch [78/100], Loss: 0.0035
+Epoch [79/100], Loss: 0.0033
+Epoch [80/100], Loss: 0.0032
+Epoch [81/100], Loss: 0.0031
+Epoch [82/100], Loss: 0.0030
+Epoch [83/100], Loss: 0.0029
+Epoch [84/100], Loss: 0.0028
+Epoch [85/100], Loss: 0.0028
+Epoch [86/100], Loss: 0.0028
+Epoch [87/100], Loss: 0.0028
+Epoch [88/100], Loss: 0.0027
+Epoch [89/100], Loss: 0.0027
+Epoch [90/100], Loss: 0.0026
+Epoch [91/100], Loss: 0.0025
+Epoch [92/100], Loss: 0.0025
+Epoch [93/100], Loss: 0.0025
+Epoch [94/100], Loss: 0.0025
+Epoch [95/100], Loss: 0.0024
+Epoch [96/100], Loss: 0.0024
+Epoch [97/100], Loss: 0.0023
+Epoch [98/100], Loss: 0.0023
+Epoch [99/100], Loss: 0.0023
+Epoch [100/100], Loss: 0.0023
+F: 500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)
+Epoch [1/100], Loss: 0.5318
+Epoch [2/100], Loss: 0.3291
+Epoch [3/100], Loss: 0.2214
+Epoch [4/100], Loss: 0.1509
+Epoch [5/100], Loss: 0.1134
+Epoch [6/100], Loss: 0.0926
+Epoch [7/100], Loss: 0.0807
+Epoch [8/100], Loss: 0.0697
+Epoch [9/100], Loss: 0.0611
+Epoch [10/100], Loss: 0.0530
+Epoch [11/100], Loss: 0.0465
+Epoch [12/100], Loss: 0.0427
+Epoch [13/100], Loss: 0.0393
+Epoch [14/100], Loss: 0.0357
+Epoch [15/100], Loss: 0.0326
+Epoch [16/100], Loss: 0.0306
+Epoch [17/100], Loss: 0.0279
+Epoch [18/100], Loss: 0.0263
+Epoch [19/100], Loss: 0.0250
+Epoch [20/100], Loss: 0.0229
+Epoch [21/100], Loss: 0.0214
+Epoch [22/100], Loss: 0.0206
+Epoch [23/100], Loss: 0.0200
+Epoch [24/100], Loss: 0.0193
+Epoch [25/100], Loss: 0.0181
+Epoch [26/100], Loss: 0.0176
+Epoch [27/100], Loss: 0.0166
+Epoch [28/100], Loss: 0.0159
+Epoch [29/100], Loss: 0.0153
+Epoch [30/100], Loss: 0.0146
+Epoch [31/100], Loss: 0.0139
+Epoch [32/100], Loss: 0.0131
+Epoch [33/100], Loss: 0.0126
+Epoch [34/100], Loss: 0.0120
+Epoch [35/100], Loss: 0.0116
+Epoch [36/100], Loss: 0.0113
+Epoch [37/100], Loss: 0.0115
+Epoch [38/100], Loss: 0.0114
+Epoch [39/100], Loss: 0.0109
+Epoch [40/100], Loss: 0.0104
+Epoch [41/100], Loss: 0.0102
+Epoch [42/100], Loss: 0.0098
+Epoch [43/100], Loss: 0.0096
+Epoch [44/100], Loss: 0.0094
+Epoch [45/100], Loss: 0.0093
+Epoch [46/100], Loss: 0.0091
+Epoch [47/100], Loss: 0.0088
+Epoch [48/100], Loss: 0.0085
+Epoch [49/100], Loss: 0.0080
+Epoch [50/100], Loss: 0.0079
+Epoch [51/100], Loss: 0.0078
+Epoch [52/100], Loss: 0.0075
+Epoch [53/100], Loss: 0.0073
+Epoch [54/100], Loss: 0.0071
+Epoch [55/100], Loss: 0.0069
+Epoch [56/100], Loss: 0.0068
+Epoch [57/100], Loss: 0.0066
+Epoch [58/100], Loss: 0.0065
+Epoch [59/100], Loss: 0.0066
+Epoch [60/100], Loss: 0.0066
+Epoch [61/100], Loss: 0.0065
+Epoch [62/100], Loss: 0.0064
+Epoch [63/100], Loss: 0.0064
+Epoch [64/100], Loss: 0.0064
+Epoch [65/100], Loss: 0.0067
+Epoch [66/100], Loss: 0.0068
+Epoch [67/100], Loss: 0.0069
+Epoch [68/100], Loss: 0.0068
+Epoch [69/100], Loss: 0.0067
+Epoch [70/100], Loss: 0.0063
+Epoch [71/100], Loss: 0.0062
+Epoch [72/100], Loss: 0.0060
+Epoch [73/100], Loss: 0.0059
+Epoch [74/100], Loss: 0.0058
+Epoch [75/100], Loss: 0.0056
+Epoch [76/100], Loss: 0.0054
+Epoch [77/100], Loss: 0.0053
+Epoch [78/100], Loss: 0.0053
+Epoch [79/100], Loss: 0.0051
+Epoch [80/100], Loss: 0.0049
+Epoch [81/100], Loss: 0.0049
+Epoch [82/100], Loss: 0.0049
+Epoch [83/100], Loss: 0.0048
+Epoch [84/100], Loss: 0.0047
+Epoch [85/100], Loss: 0.0046
+Epoch [86/100], Loss: 0.0045
+Epoch [87/100], Loss: 0.0044
+Epoch [88/100], Loss: 0.0044
+Epoch [89/100], Loss: 0.0043
+Epoch [90/100], Loss: 0.0043
+Epoch [91/100], Loss: 0.0043
+Epoch [92/100], Loss: 0.0043
+Epoch [93/100], Loss: 0.0042
+Epoch [94/100], Loss: 0.0041
+Epoch [95/100], Loss: 0.0041
+Epoch [96/100], Loss: 0.0040
+Epoch [97/100], Loss: 0.0040
+Epoch [98/100], Loss: 0.0039
+Epoch [99/100], Loss: 0.0040
+Epoch [100/100], Loss: 0.0039
+======================
+==========AE==========
+{'N': (499, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'B': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'P': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'W': (499, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'X': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'C': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'M': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'E': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'G': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'L': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'D': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'I': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'Z': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'O': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'Y': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'R': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'T': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'V': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'U': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'S': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'K': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'J': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'Q': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'H': (499, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+)), 'F': (500, Autoencoder(
+  (encoder): Encoder(
+    (conv2d_01): Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_01): ReLU()
+    (conv2d_02): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_02): ReLU()
+    (conv2d_03): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (relu_03): ReLU()
+    (flatten_04): Flatten(start_dim=1, end_dim=-1)
+    (linear_04): Linear(in_features=65536, out_features=1024, bias=True)
+    (relu_04): ReLU()
+  )
+  (decoder): Decoder(
+    (linear_01): Linear(in_features=1024, out_features=65536, bias=True)
+    (relu_01): ReLU()
+    (unflatten_01): Unflatten(dim=1, unflattened_size=(256, 16, 16))
+    (conv_transpose2d_02): ConvTranspose2d(256, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_02): ReLU()
+    (conv_transpose2d_03): ConvTranspose2d(128, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (relu_03): ReLU()
+    (conv_transpose2d_04): ConvTranspose2d(64, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (tanh_04): Tanh()
+  )
+))}
+======================

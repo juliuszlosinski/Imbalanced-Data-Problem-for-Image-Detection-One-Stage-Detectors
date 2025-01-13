@@ -96,7 +96,7 @@ class Autoencoder(nn.Module):
         return reconstructed
     
     def fit(self, dataset_path, number_of_epochs=10, batch_size=32, lr=1e-3):
-        transform = transforms.Compose([
+        transform = transforms.Compose([ 
             transforms.Resize((128, 128)),
             transforms.ToTensor(),
             transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
@@ -107,10 +107,15 @@ class Autoencoder(nn.Module):
         if os.path.exists(tmp_path):
             shutil.rmtree(tmp_path)
         os.mkdir(tmp_path)
+
+        # Handle file copying with error checking
         for file in os.listdir(dataset_path):
-            if os.path.isfile(f"{dataset_path}/{file}"):
-                shutil.copy2(f"{dataset_path}/{file}", tmp_path)
-        
+            try:
+                if os.path.isfile(f"{dataset_path}/{file}"):
+                    shutil.copy2(f"{dataset_path}/{file}", tmp_path)
+            except FileNotFoundError as e:
+                print(f"Warning: {e.filename} was not found, skipping.")
+
         dataset = datasets.ImageFolder(root=dataset_path, transform=transform)
         dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 
@@ -136,6 +141,7 @@ class Autoencoder(nn.Module):
 
             avg_loss = running_loss / len(dataloader)
             print(f"Epoch [{epoch + 1}/{number_of_epochs}], Loss: {avg_loss:.4f}")
+
         shutil.rmtree(tmp_path)
     
     def predict(self, path_to_output_image):
@@ -186,8 +192,10 @@ class AEBalancer:
             if os.path.exists(destination_folder) and os.path.isdir(destination_folder):
                 shutil.rmtree(destination_folder)
             shutil.copytree(source_folder, destination_folder)
+        
         if debug:
             print(self.maps)
+        
         for category in self.maps:
             last_id = -1
             for file in os.listdir(f"{path_to_output_image_folder}/{category}"):

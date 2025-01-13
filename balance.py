@@ -1,8 +1,8 @@
 from balancers.balancer import Balancer
 
 #methods=["SMOTE", "ADASYN", "AUGMENTATION", "DGAN", "AE"]
-#methods=["AE"]
-methods=["SMOTE", "ADASYN", "AUGMENTATION"]
+methods=["DGAN"]
+#methods=["SMOTE", "ADASYN", "AUGMENTATION"]
 balancer=Balancer("./balancer_configuration.json")
 debug=True
 
